@@ -6,7 +6,7 @@ nodes:
   - grok:
       #this is a named regular expression. grok patterns can be kept into separate files for readability
       #The Syslog-ng might have a bug because after the Month there are 2 Spaces
-      pattern: '%{MONTH:months}  %{MONTHNUM:day} %{TIME:time} %{HOSTNAME:host} %{DATA:program}%{NUMBER:pid}'
+      pattern: '%{CISCOTIMESTAMP:timestamp} %{HOSTNAME:host} %{DATA:program}\[%{NUMBER:pid}\]:'
       #This is the field of the `Event` to which the regexp should be applied
       apply_on: Line.Raw
 #if the node was successfull, statics will be applied.
@@ -15,7 +15,7 @@ statics:
     expression: evt.Line.Raw
 # syslog date can be in two different fields (one of hte assignment will fail)
   - target: evt.StrTime
-    expression: evt.Parsed.months + ' ' + evt.Parsed.day + ' ' + evt.Parsed.time
+    expression: evt.Parsed.timestamp
   - meta: datasource_path
     expression: evt.Line.Src
   - meta: datasource_type
