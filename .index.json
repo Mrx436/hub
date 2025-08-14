@@ -578,6 +578,32 @@
         }
       }
     },
+    "crowdsecurity/vpatch-CVE-2019-5418": {
+      "author": "crowdsecurity",
+      "content": "IyMgYXV0b2dlbmVyYXRlZCBvbiAyMDI1LTA3LTA5IDE0OjM3OjQ3Cm5hbWU6IGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDE5LTU0MTgKZGVzY3JpcHRpb246ICdEZXRlY3RzIFJhaWxzIGZpbGUgY29udGVudCBkaXNjbG9zdXJlIHZpYSBjcmFmdGVkIEFjY2VwdCBoZWFkZXIgKENWRS0yMDE5LTU0MTgpJwpydWxlczoKICAtIHpvbmVzOgogICAgICAtIEhFQURFUlMKICAgIHZhcmlhYmxlczoKICAgICAgLSBhY2NlcHQKICAgIHRyYW5zZm9ybToKICAgICAgLSBsb3dlcmNhc2UKICAgICAgLSB1cmxkZWNvZGUKICAgIG1hdGNoOgogICAgICB0eXBlOiBjb250YWlucwogICAgICB2YWx1ZTogJy4uLycKCmxhYmVsczoKICB0eXBlOiBleHBsb2l0CiAgc2VydmljZTogaHR0cAogIGNvbmZpZGVuY2U6IDMKICBzcG9vZmFibGU6IDAKICBiZWhhdmlvcjogJ2h0dHA6ZXhwbG9pdCcKICBsYWJlbDogJ1JhaWxzIC0gTEZJJwogIGNsYXNzaWZpY2F0aW9uOgogICAgLSBjdmUuQ1ZFLTIwMTktNTQxOAogICAgLSBhdHRhY2suVDEwMDUKICAgIC0gY3dlLkNXRS0yMgo=",
+      "description": "Detects Rails file content disclosure via crafted Accept header (CVE-2019-5418)",
+      "labels": {
+        "behavior": "http:exploit",
+        "classification": [
+          "cve.CVE-2019-5418",
+          "attack.T1005",
+          "cwe.CWE-22"
+        ],
+        "confidence": 3,
+        "label": "Rails - LFI",
+        "service": "http",
+        "spoofable": 0,
+        "type": "exploit"
+      },
+      "path": "appsec-rules/crowdsecurity/vpatch-CVE-2019-5418.yaml",
+      "version": "0.1",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "6b7bd715544feb7f9b44f03e5f3f3e3a4619716034ae68c26345cb0eaf38e273"
+        }
+      }
+    },
     "crowdsecurity/vpatch-CVE-2020-11738": {
       "author": "crowdsecurity",
       "content": "bmFtZTogY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjAtMTE3MzgKZGVzY3JpcHRpb246ICJXb3JkcHJlc3MgU25hcCBDcmVlayBEdXBsaWNhdG9yIC0gUGF0aCBUcmF2ZXJzYWwgKENWRS0yMDIwLTExNzM4KSIKcnVsZXM6CiAgLSBhbmQ6CiAgICAtIHpvbmVzOgogICAgICAtIFVSSQogICAgICB0cmFuc2Zvcm06CiAgICAgIC0gbG93ZXJjYXNlCiAgICAgIG1hdGNoOgogICAgICAgIHR5cGU6IGVuZHNXaXRoCiAgICAgICAgdmFsdWU6IC93cC1hZG1pbi9hZG1pbi1hamF4LnBocAogICAgLSB6b25lczoKICAgICAgLSBBUkdTCiAgICAgIHZhcmlhYmxlczoKICAgICAgICAtIGFjdGlvbgogICAgICBtYXRjaDoKICAgICAgICB0eXBlOiBlcXVhbHMKICAgICAgICB2YWx1ZTogZHVwbGljYXRvcl9kb3dubG9hZAogICAgLSB6b25lczoKICAgICAgLSBBUkdTCiAgICAgIHZhcmlhYmxlczoKICAgICAgICAtIGZpbGUKICAgICAgbWF0Y2g6CiAgICAgICAgdHlwZTogY29udGFpbnMKICAgICAgICB2YWx1ZTogIi4uIgpsYWJlbHM6CiAgdHlwZTogZXhwbG9pdAogIHNlcnZpY2U6IGh0dHAKICBjb25maWRlbmNlOiAzCiAgc3Bvb2ZhYmxlOiAwCiAgYmVoYXZpb3I6ICJodHRwOmV4cGxvaXQiCiAgbGFiZWw6ICJXb3JkcHJlc3MgU25hcCBDcmVlayBEdXBsaWNhdG9yIgogIGNsYXNzaWZpY2F0aW9uOgogICAtIGN2ZS5DVkUtMjAyMC0xMTczOAogICAtIGF0dGFjay5UMTU5NQogICAtIGF0dGFjay5UMTE5MAogICAtIGN3ZS5DV0UtMjI=",
@@ -1101,6 +1127,32 @@
         "0.4": {
           "deprecated": false,
           "digest": "e2c3a9d82d7362168f27227660a2d35249642843672438545ca5a8eb25d7e4e5"
+        }
+      }
+    },
+    "crowdsecurity/vpatch-CVE-2022-31499": {
+      "author": "crowdsecurity",
+      "content": "IyMgYXV0b2dlbmVyYXRlZCBvbiAyMDI1LTA4LTA3IDE0OjQwOjU1Cm5hbWU6IGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIyLTMxNDk5CmRlc2NyaXB0aW9uOiAnRGV0ZWN0cyByZW1vdGUgY29tbWFuZCBpbmplY3Rpb24gaW4gTm9ydGVrIExpbmVhciBlTWVyZ2UgRTMtU2VyaWVzIHZpYSBSZWFkZXJObyBwYXJhbWV0ZXIuJwpydWxlczoKICAtIGFuZDoKICAgICAgLSB6b25lczoKICAgICAgICAgIC0gVVJJCiAgICAgICAgdHJhbnNmb3JtOgogICAgICAgICAgLSBsb3dlcmNhc2UKICAgICAgICBtYXRjaDoKICAgICAgICAgIHR5cGU6IGNvbnRhaW5zCiAgICAgICAgICB2YWx1ZTogL2NhcmRfc2Nhbi5waHAKICAgICAgLSB6b25lczoKICAgICAgICAgIC0gQVJHUwogICAgICAgIHZhcmlhYmxlczoKICAgICAgICAgIC0gcmVhZGVybm8KICAgICAgICB0cmFuc2Zvcm06CiAgICAgICAgICAtIGxvd2VyY2FzZQogICAgICAgICAgLSB1cmxkZWNvZGUKICAgICAgICBtYXRjaDoKICAgICAgICAgIHR5cGU6IGNvbnRhaW5zCiAgICAgICAgICB2YWx1ZTogJ2AnCgpsYWJlbHM6CiAgdHlwZTogZXhwbG9pdAogIHNlcnZpY2U6IGh0dHAKICBjb25maWRlbmNlOiAzCiAgc3Bvb2ZhYmxlOiAwCiAgYmVoYXZpb3I6ICdodHRwOmV4cGxvaXQnCiAgbGFiZWw6ICdOb3J0ZWsgTGluZWFyIGVNZXJnZSBFMy1TZXJpZXMgLSBSQ0UnCiAgY2xhc3NpZmljYXRpb246CiAgICAtIGN2ZS5DVkUtMjAyMi0zMTQ5OQogICAgLSBhdHRhY2suVDExOTAKICAgIC0gY3dlLkNXRS03OAo=",
+      "description": "Detects remote command injection in Nortek Linear eMerge E3-Series via ReaderNo parameter.",
+      "labels": {
+        "behavior": "http:exploit",
+        "classification": [
+          "cve.CVE-2022-31499",
+          "attack.T1190",
+          "cwe.CWE-78"
+        ],
+        "confidence": 3,
+        "label": "Nortek Linear eMerge E3-Series - RCE",
+        "service": "http",
+        "spoofable": 0,
+        "type": "exploit"
+      },
+      "path": "appsec-rules/crowdsecurity/vpatch-CVE-2022-31499.yaml",
+      "version": "0.1",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "30225ae2402cf973d0453280a36dde3b63f46adf96bbd7d7df1fefccd08dfa82"
         }
       }
     },
@@ -3102,6 +3154,32 @@
         }
       }
     },
+    "crowdsecurity/vpatch-CVE-2024-51977": {
+      "author": "crowdsecurity",
+      "content": "IyMgYXV0b2dlbmVyYXRlZCBvbiAyMDI1LTA4LTA2IDEzOjQ5OjQ0Cm5hbWU6IGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTUxOTc3CmRlc2NyaXB0aW9uOiAnRGV0ZWN0cyB1bmF1dGhlbnRpY2F0ZWQgYWNjZXNzIHRvIHNlbnNpdGl2ZSBpbmZvcm1hdGlvbiBkaXNjbG9zdXJlIGVuZHBvaW50IC9ldGMvbW50X2luZm8uY3N2IG9uIEJyb3RoZXIgTUZDLUw5NTcwQ0RXIGRldmljZXMuJwpydWxlczoKICAtIHpvbmVzOgogICAgICAtIFVSSQogICAgdHJhbnNmb3JtOgogICAgICAtIGxvd2VyY2FzZQogICAgICAtIHVybGRlY29kZQogICAgbWF0Y2g6CiAgICAgIHR5cGU6IGVxdWFscwogICAgICB2YWx1ZTogJy9ldGMvbW50X2luZm8uY3N2JwoKbGFiZWxzOgogIHR5cGU6IGV4cGxvaXQKICBzZXJ2aWNlOiBodHRwCiAgY29uZmlkZW5jZTogMwogIHNwb29mYWJsZTogMAogIGJlaGF2aW9yOiAnaHR0cDpleHBsb2l0JwogIGxhYmVsOiAnQnJvdGhlciBNRkMtTDk1NzBDRFcgLSBJbmZvcm1hdGlvbiBEaXNjbG9zdXJlJwogIGNsYXNzaWZpY2F0aW9uOgogICAgLSBjdmUuQ1ZFLTIwMjQtNTE5NzcKICAgIC0gYXR0YWNrLlQxNTkyCiAgICAtIGN3ZS5DV0UtMjAwCg==",
+      "description": "Detects unauthenticated access to sensitive information disclosure endpoint /etc/mnt_info.csv on Brother MFC-L9570CDW devices.",
+      "labels": {
+        "behavior": "http:exploit",
+        "classification": [
+          "cve.CVE-2024-51977",
+          "attack.T1592",
+          "cwe.CWE-200"
+        ],
+        "confidence": 3,
+        "label": "Brother MFC-L9570CDW - Information Disclosure",
+        "service": "http",
+        "spoofable": 0,
+        "type": "exploit"
+      },
+      "path": "appsec-rules/crowdsecurity/vpatch-CVE-2024-51977.yaml",
+      "version": "0.1",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "e8ace865f68696980fc837decf0db00f1c588c6c0e2146df4014004cbd8185c1"
+        }
+      }
+    },
     "crowdsecurity/vpatch-CVE-2024-52301": {
       "author": "crowdsecurity",
       "content": "bmFtZTogY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtNTIzMDEKZGVzY3JpcHRpb246ICJMYXJhdmVsIC0gUGFyYW1ldGVyIEluamVjdGlvbiAoQ1ZFLTIwMjQtNTIzMDEpIgpydWxlczoKICAtIGFuZDoKICAgIC0gem9uZXM6CiAgICAgIC0gQVJHU19OQU1FUwogICAgICBtYXRjaDoKICAgICAgICB0eXBlOiBlbmRzV2l0aAogICAgICAgIHZhbHVlOiAiLS1lbnYiCgpsYWJlbHM6CiAgdHlwZTogZXhwbG9pdAogIHNlcnZpY2U6IGh0dHAKICBjb25maWRlbmNlOiAzCiAgc3Bvb2ZhYmxlOiAwCiAgYmVoYXZpb3I6ICJodHRwOmV4cGxvaXQiCiAgbGFiZWw6ICJMYXJhdmVsIC0gUGFyYW1ldGVyIEluamVjdGlvbiIKICBjbGFzc2lmaWNhdGlvbjoKICAgLSBjdmUuQ1ZFLTIwMjQtNTIzMDEKICAgLSBhdHRhY2suVDE1OTUKICAgLSBhdHRhY2suVDExOTAKICAgLSBjd2UuQ1dFLTg4Cg==",
@@ -3563,6 +3641,32 @@
         }
       }
     },
+    "crowdsecurity/vpatch-CVE-2025-47812": {
+      "author": "crowdsecurity",
+      "content": "IyMgYXV0b2dlbmVyYXRlZCBvbiAyMDI1LTA4LTA2IDEzOjUzOjA2Cm5hbWU6IGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI1LTQ3ODEyCmRlc2NyaXB0aW9uOiAnRGV0ZWN0cyBXaW5nIEZUUCBTZXJ2ZXIgPD0gNy40LjMgUkNFIHZpYSBMdWEgY29kZSBpbmplY3Rpb24gaW4gdXNlcm5hbWUgcGFyYW1ldGVyIGR1cmluZyBsb2dpbi4nCnJ1bGVzOgogIC0gYW5kOgogICAgICAtIHpvbmVzOgogICAgICAgICAgLSBVUkkKICAgICAgICB0cmFuc2Zvcm06CiAgICAgICAgICAtIGxvd2VyY2FzZQogICAgICAgIG1hdGNoOgogICAgICAgICAgdHlwZTogY29udGFpbnMKICAgICAgICAgIHZhbHVlOiAvbG9naW5vay5odG1sCiAgICAgIC0gem9uZXM6CiAgICAgICAgICAtIEJPRFlfQVJHUwogICAgICAgIHZhcmlhYmxlczoKICAgICAgICAgIC0gdXNlcm5hbWUKICAgICAgICB0cmFuc2Zvcm06CiAgICAgICAgICAtIGxvd2VyY2FzZQogICAgICAgICAgLSB1cmxkZWNvZGUKICAgICAgICBtYXRjaDoKICAgICAgICAgIHR5cGU6IGNvbnRhaW5zCiAgICAgICAgICB2YWx1ZTogJ11dJwogICAgICAtIHpvbmVzOgogICAgICAgICAgLSBCT0RZX0FSR1MKICAgICAgICB2YXJpYWJsZXM6CiAgICAgICAgICAtIHVzZXJuYW1lCiAgICAgICAgdHJhbnNmb3JtOgogICAgICAgICAgLSBsb3dlcmNhc2UKICAgICAgICAgIC0gdXJsZGVjb2RlCiAgICAgICAgbWF0Y2g6CiAgICAgICAgICB0eXBlOiBjb250YWlucwogICAgICAgICAgdmFsdWU6ICdpby5wb3BlbignCgpsYWJlbHM6CiAgdHlwZTogZXhwbG9pdAogIHNlcnZpY2U6IGh0dHAKICBjb25maWRlbmNlOiAzCiAgc3Bvb2ZhYmxlOiAwCiAgYmVoYXZpb3I6ICdodHRwOmV4cGxvaXQnCiAgbGFiZWw6ICdXaW5nIEZUUCBTZXJ2ZXIgLSBSQ0UnCiAgY2xhc3NpZmljYXRpb246CiAgICAtIGN2ZS5DVkUtMjAyNS00NzgxMgogICAgLSBhdHRhY2suVDExOTAKICAgIC0gY3dlLkNXRS05NAo=",
+      "description": "Detects Wing FTP Server <= 7.4.3 RCE via Lua code injection in username parameter during login.",
+      "labels": {
+        "behavior": "http:exploit",
+        "classification": [
+          "cve.CVE-2025-47812",
+          "attack.T1190",
+          "cwe.CWE-94"
+        ],
+        "confidence": 3,
+        "label": "Wing FTP Server - RCE",
+        "service": "http",
+        "spoofable": 0,
+        "type": "exploit"
+      },
+      "path": "appsec-rules/crowdsecurity/vpatch-CVE-2025-47812.yaml",
+      "version": "0.1",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "0714225c75f112b3ee1bf319a2bb7c0f09b0bf1dc4e29745fc7431a5c78c539f"
+        }
+      }
+    },
     "crowdsecurity/vpatch-CVE-2025-49113": {
       "author": "crowdsecurity",
       "content": "bmFtZTogY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjUtNDkxMTMKZGVzY3JpcHRpb246ICdEZXRlY3RzIGFyYml0cmFyeSByZW1vdGUgY29kZSBleGVjdXRpb24gdnVsbmVyYWJpbGl0eSB2aWEgUEhQIE9iamVjdCBEZXNlcmlhbGl6YXRpb24gaW4gUm91bmRjdWJlJwojUE9TVCAvP190YXNrPXNldHRpbmdzJl9mcmFtZWQ9MSZfcmVtb3RlPTEmX2Zyb209ISI7TzoxNjoiQ3J5cHRfR1BHX0VuZ2luZSI6MTp7czo4OiJfZ3BnY29uZiI7czp7ezQ0ICsgbGVuKG9hc3RfbmV3KX19OiJiYXNoKy1jKyJwcmludGYrJ2N1cmwre3tvYXN0X25ld319Jz4vdG1wL3A7YmFzaCsvdG1wL3AiOyI7fX0mX2FjdGlvbj11cGxvYWQgCnJ1bGVzOgogIC0gYW5kOgogICAgICAtIHpvbmVzOgogICAgICAgICAgLSBNRVRIT0QKICAgICAgICBtYXRjaDoKICAgICAgICAgIHR5cGU6IGVxdWFscwogICAgICAgICAgdmFsdWU6IFBPU1QKICAgICAgLSB6b25lczoKICAgICAgICAgIC0gQVJHUwogICAgICAgIHZhcmlhYmxlczoKICAgICAgICAgIC0gX3Rhc2sKICAgICAgICB0cmFuc2Zvcm06CiAgICAgICAgICAtIHVybGRlY29kZQogICAgICAgICAgLSBsb3dlcmNhc2UKICAgICAgICBtYXRjaDoKICAgICAgICAgIHR5cGU6IGVxdWFscwogICAgICAgICAgdmFsdWU6ICdzZXR0aW5ncycKICAgICAgLSB6b25lczoKICAgICAgICAgIC0gQVJHUwogICAgICAgIHZhcmlhYmxlczoKICAgICAgICAgIC0gX2FjdGlvbgogICAgICAgIHRyYW5zZm9ybToKICAgICAgICAgIC0gdXJsZGVjb2RlCiAgICAgICAgICAtIGxvd2VyY2FzZQogICAgICAgIG1hdGNoOgogICAgICAgICAgdHlwZTogZXF1YWxzCiAgICAgICAgICB2YWx1ZTogJ3VwbG9hZCcKICAgICAgLSB6b25lczoKICAgICAgICAgIC0gQVJHUwogICAgICAgIHZhcmlhYmxlczoKICAgICAgICAgIC0gX2Zyb20KICAgICAgICB0cmFuc2Zvcm06CiAgICAgICAgICAtIHVybGRlY29kZQogICAgICAgICAgLSBsb3dlcmNhc2UKICAgICAgICBtYXRjaDoKICAgICAgICAgIHR5cGU6IHJlZ2V4CiAgICAgICAgICB2YWx1ZTogIlteXFx3Li1dIgoKbGFiZWxzOgogIHR5cGU6IGV4cGxvaXQKICBzZXJ2aWNlOiBodHRwCiAgY29uZmlkZW5jZTogMwogIHNwb29mYWJsZTogMAogIGJlaGF2aW9yOiAnaHR0cDpleHBsb2l0JwogIGxhYmVsOiAnUm91bmRjdWJlIC0gUkNFIHZpYSBQSFAgT2JqZWN0IERlc2VyaWFsaXphdGlvbicKICBjbGFzc2lmaWNhdGlvbjoKICAgIC0gY3ZlLkNWRS0yMDI1LTQ5MTEzCiAgICAtIGF0dGFjay5UMTE5MAogICAgLSBjd2UuQ1dFLTUwMg==",
@@ -3586,6 +3690,62 @@
         "0.1": {
           "deprecated": false,
           "digest": "7938a0e894c456c20ea4ba4bf42e9b3b98a9608fb805211b0b560653fb015d5b"
+        }
+      }
+    },
+    "crowdsecurity/vpatch-CVE-2025-49132": {
+      "author": "crowdsecurity",
+      "content": "IyMgYXV0b2dlbmVyYXRlZCBvbiAyMDI1LTA4LTA2IDEzOjUzOjMwCm5hbWU6IGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI1LTQ5MTMyCmRlc2NyaXB0aW9uOiAnRGV0ZWN0cyB1bmF1dGhlbnRpY2F0ZWQgcmVtb3RlIGNvZGUgZXhlY3V0aW9uIGluIFB0ZXJvZGFjdHlsIFBhbmVsIHZpYSBwYXRoIHRyYXZlcnNhbCBpbiAvbG9jYWxlcy9sb2NhbGUuanNvbicKcnVsZXM6CiAgLSBhbmQ6CiAgICAgIC0gem9uZXM6CiAgICAgICAgICAtIFVSSQogICAgICAgIHRyYW5zZm9ybToKICAgICAgICAgIC0gbG93ZXJjYXNlCiAgICAgICAgICAtIHVybGRlY29kZQogICAgICAgIG1hdGNoOgogICAgICAgICAgdHlwZTogY29udGFpbnMKICAgICAgICAgIHZhbHVlOiAvbG9jYWxlcy9sb2NhbGUuanNvbgogICAgICAtIHpvbmVzOgogICAgICAgICAgLSBBUkdTCiAgICAgICAgdmFyaWFibGVzOgogICAgICAgICAgLSBsb2NhbGUKICAgICAgICB0cmFuc2Zvcm06CiAgICAgICAgICAtIGxvd2VyY2FzZQogICAgICAgICAgLSB1cmxkZWNvZGUKICAgICAgICBtYXRjaDoKICAgICAgICAgIHR5cGU6IGNvbnRhaW5zCiAgICAgICAgICB2YWx1ZTogJy4uLycKCmxhYmVsczoKICB0eXBlOiBleHBsb2l0CiAgc2VydmljZTogaHR0cAogIGNvbmZpZGVuY2U6IDMKICBzcG9vZmFibGU6IDAKICBiZWhhdmlvcjogJ2h0dHA6ZXhwbG9pdCcKICBsYWJlbDogJ1B0ZXJvZGFjdHlsIFBhbmVsIC0gUkNFJwogIGNsYXNzaWZpY2F0aW9uOgogICAgLSBjdmUuQ1ZFLTIwMjUtNDkxMzIKICAgIC0gYXR0YWNrLlQxMTkwCiAgICAtIGN3ZS5DV0UtMjAK",
+      "description": "Detects unauthenticated remote code execution in Pterodactyl Panel via path traversal in /locales/locale.json",
+      "labels": {
+        "behavior": "http:exploit",
+        "classification": [
+          "cve.CVE-2025-49132",
+          "attack.T1190",
+          "cwe.CWE-20"
+        ],
+        "confidence": 3,
+        "label": "Pterodactyl Panel - RCE",
+        "service": "http",
+        "spoofable": 0,
+        "type": "exploit"
+      },
+      "path": "appsec-rules/crowdsecurity/vpatch-CVE-2025-49132.yaml",
+      "version": "0.1",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "73ab47f43ae03cce51c6b2eb271c005b540739599f3897fc100c77a8d4f8658a"
+        }
+      }
+    },
+    "crowdsecurity/vpatch-CVE-2025-52488": {
+      "author": "crowdsecurity",
+      "content": "IyMgYXV0b2dlbmVyYXRlZCBvbiAyMDI1LTA3LTE2IDE2OjE4OjEwCm5hbWU6IGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI1LTUyNDg4CmRlc2NyaXB0aW9uOiAiRGV0ZWN0cyBVbmljb2RlIHBhdGggbm9ybWFsaXphdGlvbiBOVExNIGhhc2ggZGlzY2xvc3VyZSBpbiBETk4gKERvdE5ldE51a2UpIHZpYSBjcmFmdGVkIGZpbGUgdXBsb2FkIGZpbGVuYW1lLiIKcnVsZXM6CiAgLSBhbmQ6CiAgICAgIC0gem9uZXM6CiAgICAgICAgICAtIFVSSQogICAgICAgIHRyYW5zZm9ybToKICAgICAgICAgIC0gbG93ZXJjYXNlCiAgICAgICAgbWF0Y2g6CiAgICAgICAgICB0eXBlOiBjb250YWlucwogICAgICAgICAgdmFsdWU6IC9wcm92aWRlcnMvaHRtbGVkaXRvcnByb3ZpZGVycy9kbm5jb25uZWN0LmNrZS9icm93c2VyL2ZpbGV1cGxvYWRlci5hc2h4CiAgICAgIC0gem9uZXM6CiAgICAgICAgICAtIEZJTEVOQU1FUwogICAgICAgIHRyYW5zZm9ybToKICAgICAgICAgIC0gbG93ZXJjYXNlCiAgICAgICAgbWF0Y2g6CiAgICAgICAgICB0eXBlOiBjb250YWlucwogICAgICAgICAgdmFsdWU6ICIlZWYlYmMlYmMlZWYlYmMlYmMiCgpsYWJlbHM6CiAgdHlwZTogZXhwbG9pdAogIHNlcnZpY2U6IGh0dHAKICBjb25maWRlbmNlOiAzCiAgc3Bvb2ZhYmxlOiAwCiAgYmVoYXZpb3I6ICJodHRwOmV4cGxvaXQiCiAgbGFiZWw6ICJETk4gRG90TmV0TnVrZSAtIE5UTE0gSGFzaCBEaXNjbG9zdXJlIgogIGNsYXNzaWZpY2F0aW9uOgogICAgLSBjdmUuQ1ZFLTIwMjUtNTI0ODgKICAgIC0gYXR0YWNrLlQxNTU3CiAgICAtIGN3ZS5DV0UtMjAwCg==",
+      "description": "Detects Unicode path normalization NTLM hash disclosure in DNN (DotNetNuke) via crafted file upload filename.",
+      "labels": {
+        "behavior": "http:exploit",
+        "classification": [
+          "cve.CVE-2025-52488",
+          "attack.T1557",
+          "cwe.CWE-200"
+        ],
+        "confidence": 3,
+        "label": "DNN DotNetNuke - NTLM Hash Disclosure",
+        "service": "http",
+        "spoofable": 0,
+        "type": "exploit"
+      },
+      "path": "appsec-rules/crowdsecurity/vpatch-CVE-2025-52488.yaml",
+      "version": "0.2",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "941e76621e85e583ac052e9bfcf7fe59e03d42ee70849d630a86d34d07c5755b"
+        },
+        "0.2": {
+          "deprecated": false,
+          "digest": "fbfcfabc33428e18d4d5a59ad0d4a7590bf75eaa5a4f160417bd24e71d44e2fa"
         }
       }
     },
@@ -4181,11 +4341,14 @@
       "collections": [
         "crowdsecurity/appsec-virtual-patching",
         "crowdsecurity/appsec-generic-rules",
+        "crowdsecurity/appsec-wordpress",
         "crowdsecurity/base-http-scenarios",
+        "crowdsecurity/http-cve",
+        "crowdsecurity/wordpress",
         "crowdsecurity/modsecurity",
         "openappsec/openappsec"
       ],
-      "content": "cGFyc2VyczoKICAtIFpvZXlWaWQvbnBtcGx1cy1sb2dzCiAgLSBjcm93ZHNlY3VyaXR5L2NyaS1sb2dzCiAgLSBjcm93ZHNlY3VyaXR5L2RhdGVwYXJzZS1lbnJpY2gKY29sbGVjdGlvbnM6CiAgLSBjcm93ZHNlY3VyaXR5L2FwcHNlYy12aXJ0dWFsLXBhdGNoaW5nCiAgLSBjcm93ZHNlY3VyaXR5L2FwcHNlYy1nZW5lcmljLXJ1bGVzCiAgLSBjcm93ZHNlY3VyaXR5L2Jhc2UtaHR0cC1zY2VuYXJpb3MKICAtIGNyb3dkc2VjdXJpdHkvbW9kc2VjdXJpdHkKICAtIG9wZW5hcHBzZWMvb3BlbmFwcHNlYwpzY2VuYXJpb3M6CiAgLSBjcm93ZHNlY3VyaXR5L25naW54LXJlcS1saW1pdC1leGNlZWRlZApkZXNjcmlwdGlvbjogIk5QTXBsdXMgc3VwcG9ydDogcGFyc2VyIGFuZCBnZW5lcmljIGh0dHAgc2NlbmFyaW9zIgphdXRob3I6IFpvZXlWaWQKdGFnczoKICAtIGxpbnV4CiAgLSBuZ2lueAogIC0gbmdpbngtcHJveHkKICAtIGNyYXdsCiAgLSBzY2FuCg==",
+      "content": "cGFyc2VyczoKICAtIFpvZXlWaWQvbnBtcGx1cy1sb2dzCiAgLSBjcm93ZHNlY3VyaXR5L2NyaS1sb2dzCiAgLSBjcm93ZHNlY3VyaXR5L2RhdGVwYXJzZS1lbnJpY2gKY29sbGVjdGlvbnM6CiAgLSBjcm93ZHNlY3VyaXR5L2FwcHNlYy12aXJ0dWFsLXBhdGNoaW5nCiAgLSBjcm93ZHNlY3VyaXR5L2FwcHNlYy1nZW5lcmljLXJ1bGVzCiAgLSBjcm93ZHNlY3VyaXR5L2FwcHNlYy13b3JkcHJlc3MKICAtIGNyb3dkc2VjdXJpdHkvYmFzZS1odHRwLXNjZW5hcmlvcwogIC0gY3Jvd2RzZWN1cml0eS9odHRwLWN2ZQogIC0gY3Jvd2RzZWN1cml0eS93b3JkcHJlc3MKICAtIGNyb3dkc2VjdXJpdHkvbW9kc2VjdXJpdHkKICAtIG9wZW5hcHBzZWMvb3BlbmFwcHNlYwpzY2VuYXJpb3M6CiAgLSBjcm93ZHNlY3VyaXR5L25naW54LXJlcS1saW1pdC1leGNlZWRlZApkZXNjcmlwdGlvbjogIk5QTXBsdXMgc3VwcG9ydDogcGFyc2VyIGFuZCBnZW5lcmljIGh0dHAgc2NlbmFyaW9zIgphdXRob3I6IFpvZXlWaWQKdGFnczoKICAtIGxpbnV4CiAgLSBuZ2lueAogIC0gbmdpbngtcHJveHkKICAtIGNyYXdsCiAgLSBzY2FuCg==",
       "description": "NPMplus support: parser and generic http scenarios",
       "labels": null,
       "long_description": "IyMgTlBNcGx1cyBjb2xsZWN0aW9uCgpBIGNvbGxlY3Rpb24gdG8gZGVmZW5kIG5naW54IGFnYWluc3QgY29tbW9uIGF0dGFja3M6CiAtIFtOUE1wbHVzXShodHRwczovL2dpdGh1Yi5jb20vWm9leVZpZC9OUE1wbHVzKSBwYXJzZXIKIC0gYmFzZSBodHRwIHNjZW5hcmlvcyAoY3Jhd2wsIDQwNCBzY2FuLCBiZikKCiMjIEFjcXVpc2l0aW9uIHRlbXBsYXRlCgpFeGFtcGxlIGFjcXVpc2l0aW9uIGZvciB0aGlzIGNvbGxlY3Rpb246CgpgYGB5YW1sCmZpbGVuYW1lczoKICAtIC9vcHQvbnBtcGx1cy9uZ2lueC8qLmxvZwpsYWJlbHM6CiAgdHlwZTogbnBtcGx1cwotLS0KZmlsZW5hbWVzOgogIC0gL29wdC9ucG1wbHVzL25naW54LyoubG9nCmxhYmVsczoKICB0eXBlOiBtb2RzZWN1cml0eQotLS0KbGlzdGVuX2FkZHI6IDAuMC4wLjA6NzQyMgphcHBzZWNfY29uZmlnOiBjcm93ZHNlY3VyaXR5L2FwcHNlYy1kZWZhdWx0Cm5hbWU6IGFwcHNlYwpzb3VyY2U6IGFwcHNlYwpsYWJlbHM6CiAgdHlwZTogYXBwc2VjCiMgaWYgeW91IHVzZSBvcGVuYXBwc2VjIHlvdSBjYW4gZW5hYmxlIHRoaXMKIy0tLQojc291cmNlOiBmaWxlCiNmaWxlbmFtZXM6CiMgLSAvb3B0L29wZW5hcHBzZWMvbG9ncy9jcC1uYW5vLWh0dHAtdHJhbnNhY3Rpb24taGFuZGxlci5sb2cqCiNsYWJlbHM6CiMgIHR5cGU6IG9wZW5hcHBzZWMKYGBgCgoKbm90ZXM6CiAtICBEZXBlbmRpbmcgb24geW91ciBjb25maWd1cmF0aW9uLCBwYXRocyB0byBsb2cgZmlsZXMgbWlnaHQgY2hhbmdlCiAtICBwbGVhc2UgcmVhZCBtb3JlIFtoZXJlXShodHRwczovL2dpdGh1Yi5jb20vWm9leVZpZC9OUE1wbHVzLz90YWI9cmVhZG1lLW92LWZpbGUjY3Jvd2RzZWMpCg==",
@@ -4198,7 +4361,7 @@
       "scenarios": [
         "crowdsecurity/nginx-req-limit-exceeded"
       ],
-      "version": "0.4",
+      "version": "0.5",
       "versions": {
         "0.1": {
           "deprecated": false,
@@ -4215,6 +4378,10 @@
         "0.4": {
           "deprecated": false,
           "digest": "e0e84240a835f76927a88a81650cb82386844eb70f92d174ea29d52bbae920e4"
+        },
+        "0.5": {
+          "deprecated": false,
+          "digest": "6f6044f1be04c9dac32896016667ed0c8edbb2b98bb53e27a8147709b0d2295e"
         }
       }
     },
@@ -4789,10 +4956,16 @@
         "crowdsecurity/vpatch-CVE-2025-29306",
         "crowdsecurity/vpatch-CVE-2025-49113",
         "crowdsecurity/appsec-generic-test",
-        "crowdsecurity/vpatch-CVE-2025-25257"
+        "crowdsecurity/vpatch-CVE-2025-25257",
+        "crowdsecurity/vpatch-CVE-2019-5418",
+        "crowdsecurity/vpatch-CVE-2025-52488",
+        "crowdsecurity/vpatch-CVE-2025-49132",
+        "crowdsecurity/vpatch-CVE-2025-47812",
+        "crowdsecurity/vpatch-CVE-2024-51977",
+        "crowdsecurity/vpatch-CVE-2022-31499"
       ],
       "author": "crowdsecurity",
-      "content": "YXBwc2VjLWNvbmZpZ3M6CiAgLSBjcm93ZHNlY3VyaXR5L3ZpcnR1YWwtcGF0Y2hpbmcKICAtIGNyb3dkc2VjdXJpdHkvYXBwc2VjLWRlZmF1bHQKYXBwc2VjLXJ1bGVzOgogIC0gY3Jvd2RzZWN1cml0eS9iYXNlLWNvbmZpZwogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtZW52LWFjY2VzcwogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtNDAwNDQKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDE3LTk4NDEKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIwLTExNzM4CiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMi0yNzkyNgogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjItMzU5MTQKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIyLTQ2MTY5CiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMy0yMDE5OAogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtMjI1MTUKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTMzNjE3CiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMy0zNDM2MgogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtMzUxOQogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtNDI3OTMKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTUwMTY0CiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMy0zODIwNQogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtMjQ0ODkKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIxLTMxMjkKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIxLTIyOTQxCiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAxOS0xMjk4OQogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjItNDQ4NzcKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDE4LTEwNTYyCiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMy02NTUzCiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAxOC0xMDAwODYxCiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAxOS0xMDAzMDMwCiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMi0yMjk2NQogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtMjM3NTIKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTQ5MDcwCiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1sYXJhdmVsLWRlYnVnLW1vZGUKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTI4MTIxCiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMC0xNzQ5NgogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtMTM4OQogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtNzAyOAogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtNDY4MDUKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTIzODk3CiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMy0yMjUyNwogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtMzUwNzgKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTM1MDgyCiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMi0yMjk1NAogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtMTIxMgogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtc3ltZm9ueS1wcm9maWxlcgogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtY29ubmVjdHdpc2UtYXV0aC1ieXBhc3MKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTIyMDI0CiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC0yNzE5OAogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtMzI3MwogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtNDU3NwogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtMjk4NDkKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTQ3MjE4CiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1naXQtY29uZmlnCiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC0zMjExMwogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtMzI3MgogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtMjgyNTUKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTI5ODI0CiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC0yNzM0OAogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjAtNTkwMgogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMTgtMTMzNzkKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIyLTI2MTM0CiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC0zNDEwMgogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtMjk5NzMKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIyLTQxMDgyCiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAxOS0xODkzNQogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtODE5MAogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtMjg5ODcKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTM4ODU2CiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAxOC0yMDA2MgogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjEtMjYwODYKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTUxNTY3CiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC0yNzk1NgogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtMjc5NTQKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTAwMTIKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTk0NzQKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTc1OTMKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTUyMzAxCiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC04OTYzCiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC0zODgxNgogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtOTQ2NQogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtNTEzNzgKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTQxNzEzCiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC02MjA1CiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNS0yOTkyNwogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjItMjU0ODgKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIwLTkwNTQKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTI3NTY0CiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMS00NDUyOQogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtNTc3MjcKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTI3MjkyCiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNS0yNDg5MwogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjEtNDM3OTgKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIyLTEzODgKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIxLTI2Mjk0CiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAwMi0xMTMxCiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMy0wMjk3CiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAwNy0wODg1CiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC0zMjg3MAogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjUtMjgzNjcKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI1LTMyNDgKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI1LTMxMTYxCiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNS0zMTMyNAogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjUtMjkzMDYKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI1LTQ5MTEzCiAgLSBjcm93ZHNlY3VyaXR5L2FwcHNlYy1nZW5lcmljLXRlc3QKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI1LTI1MjU3CmF1dGhvcjogY3Jvd2RzZWN1cml0eQpjb250ZXh0czoKICAtIGNyb3dkc2VjdXJpdHkvYXBwc2VjX2Jhc2UKZGVzY3JpcHRpb246IGEgZ2VuZXJpYyB2aXJ0dWFsIHBhdGNoaW5nIGNvbGxlY3Rpb24sIHN1aXRhYmxlIGZvciBtb3N0IHdlYiBzZXJ2ZXJzLgpuYW1lOiBjcm93ZHNlY3VyaXR5L2FwcHNlYy12aXJ0dWFsLXBhdGNoaW5nCnBhcnNlcnM6CiAgLSBjcm93ZHNlY3VyaXR5L2FwcHNlYy1sb2dzCnNjZW5hcmlvczoKICAtIGNyb3dkc2VjdXJpdHkvYXBwc2VjLXZwYXRjaAogIC0gY3Jvd2RzZWN1cml0eS9hcHBzZWMtbmF0aXZlCiAgLSBjcm93ZHNlY3VyaXR5L2FwcHNlYy1nZW5lcmljLXRlc3QK",
+      "content": "YXBwc2VjLWNvbmZpZ3M6Ci0gY3Jvd2RzZWN1cml0eS92aXJ0dWFsLXBhdGNoaW5nCi0gY3Jvd2RzZWN1cml0eS9hcHBzZWMtZGVmYXVsdAphcHBzZWMtcnVsZXM6Ci0gY3Jvd2RzZWN1cml0eS9iYXNlLWNvbmZpZwotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLWVudi1hY2Nlc3MKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMy00MDA0NAotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDE3LTk4NDEKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMC0xMTczOAotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIyLTI3OTI2Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjItMzU5MTQKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMi00NjE2OQotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTIwMTk4Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtMjI1MTUKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMy0zMzYxNwotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTM0MzYyCi0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtMzUxOQotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTQyNzkzCi0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtNTAxNjQKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMy0zODIwNQotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTI0NDg5Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjEtMzEyOQotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIxLTIyOTQxCi0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMTktMTI5ODkKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMi00NDg3NwotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDE4LTEwNTYyCi0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtNjU1MwotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDE4LTEwMDA4NjEKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAxOS0xMDAzMDMwCi0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjItMjI5NjUKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMy0yMzc1MgotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTQ5MDcwCi0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtbGFyYXZlbC1kZWJ1Zy1tb2RlCi0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtMjgxMjEKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMC0xNzQ5NgotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTEzODkKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMy03MDI4Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtNDY4MDUKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC0yMzg5NwotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTIyNTI3Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtMzUwNzgKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMy0zNTA4MgotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIyLTIyOTU0Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtMTIxMgotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLXN5bWZvbnktcHJvZmlsZXIKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1jb25uZWN0d2lzZS1hdXRoLWJ5cGFzcwotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTIyMDI0Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtMjcxOTgKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC0zMjczCi0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtNDU3NwotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTI5ODQ5Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtNDcyMTgKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1naXQtY29uZmlnCi0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtMzIxMTMKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC0zMjcyCi0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtMjgyNTUKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC0yOTgyNAotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTI3MzQ4Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjAtNTkwMgotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDE4LTEzMzc5Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjItMjYxMzQKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC0zNDEwMgotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTI5OTczCi0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjItNDEwODIKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAxOS0xODkzNQotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTgxOTAKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC0yODk4NwotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTM4ODU2Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMTgtMjAwNjIKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMS0yNjA4NgotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTUxNTY3Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtMjc5NTYKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC0yNzk1NAotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTAwMTIKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC05NDc0Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtNzU5MwotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTUyMzAxCi0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtODk2MwotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTM4ODE2Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtOTQ2NQotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI0LTUxMzc4Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtNDE3MTMKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC02MjA1Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjUtMjk5MjcKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMi0yNTQ4OAotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIwLTkwNTQKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC0yNzU2NAotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIxLTQ0NTI5Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtNTc3MjcKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC0yNzI5MgotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI1LTI0ODkzCi0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjEtNDM3OTgKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMi0xMzg4Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjEtMjYyOTQKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAwMi0xMTMxCi0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtMDI5NwotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDA3LTA4ODUKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNC0zMjg3MAotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI1LTI4MzY3Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjUtMzI0OAotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI1LTMxMTYxCi0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjUtMzEzMjQKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNS0yOTMwNgotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI1LTQ5MTEzCi0gY3Jvd2RzZWN1cml0eS9hcHBzZWMtZ2VuZXJpYy10ZXN0Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjUtMjUyNTcKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAxOS01NDE4Ci0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjUtNTI0ODgKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNS00OTEzMgotIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDI1LTQ3ODEyCi0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtNTE5NzcKLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMi0zMTQ5OQphdXRob3I6IGNyb3dkc2VjdXJpdHkKY29udGV4dHM6Ci0gY3Jvd2RzZWN1cml0eS9hcHBzZWNfYmFzZQpkZXNjcmlwdGlvbjogYSBnZW5lcmljIHZpcnR1YWwgcGF0Y2hpbmcgY29sbGVjdGlvbiwgc3VpdGFibGUgZm9yIG1vc3Qgd2ViIHNlcnZlcnMuCm5hbWU6IGNyb3dkc2VjdXJpdHkvYXBwc2VjLXZpcnR1YWwtcGF0Y2hpbmcKcGFyc2VyczoKLSBjcm93ZHNlY3VyaXR5L2FwcHNlYy1sb2dzCnNjZW5hcmlvczoKLSBjcm93ZHNlY3VyaXR5L2FwcHNlYy12cGF0Y2gKLSBjcm93ZHNlY3VyaXR5L2FwcHNlYy1uYXRpdmUKLSBjcm93ZHNlY3VyaXR5L2FwcHNlYy1nZW5lcmljLXRlc3QK",
       "contexts": [
         "crowdsecurity/appsec_base"
       ],
@@ -4808,7 +4981,7 @@
         "crowdsecurity/appsec-native",
         "crowdsecurity/appsec-generic-test"
       ],
-      "version": "7.4",
+      "version": "8.0",
       "versions": {
         "0.1": {
           "deprecated": false,
@@ -5105,6 +5278,30 @@
         "7.4": {
           "deprecated": false,
           "digest": "852f04ba2702ed9c43aec3ead7f0a42c009c2d7f444c47012f19e84494c43011"
+        },
+        "7.5": {
+          "deprecated": false,
+          "digest": "16d2d93a048170385e00e8fdecda9374082990435db9aecbfea64e0af1fc5499"
+        },
+        "7.6": {
+          "deprecated": false,
+          "digest": "f49abb79417a6918eccc73ff389fc92b3f5646077f3ab28fb7296b62aa224569"
+        },
+        "7.7": {
+          "deprecated": false,
+          "digest": "fe8e9ba74c44ea7641f4626f5c70d77f4a1ae9ab6d2e7e6a1b72e7beec9fe290"
+        },
+        "7.8": {
+          "deprecated": false,
+          "digest": "ecc78a7e9d785ef8db091b98b7e1bc7a42f2941f4802fb56e0075f43b0b71d85"
+        },
+        "7.9": {
+          "deprecated": false,
+          "digest": "d119c546eda3a76d871f48ed37689479fda1de34fbdb3807528c482068b359fd"
+        },
+        "8.0": {
+          "deprecated": false,
+          "digest": "ab689f3b5da99e043ca7d256c0fd8607df72078c9ccd9848e68b45baf170a2b6"
         }
       }
     },
@@ -12017,17 +12214,21 @@
     },
     "sdwilsh/navidrome-logs": {
       "author": "sdwilsh",
-      "content": "LS0tCiNkZWJ1ZzogdHJ1ZQpmaWx0ZXI6IGV2dC5QYXJzZWQucHJvZ3JhbSA9PSAnbmF2aWRyb21lJwpvbnN1Y2Nlc3M6IG5leHRfc3RhZ2UKbmFtZTogc2R3aWxzaC9uYXZpZHJvbWUtbG9ncwpkZXNjcmlwdGlvbjogUGFyc2VzIGxvZ3MgZnJvbSBOYXZpZHJvbWUKbm9kZXM6CiAgLSBncm9rOgogICAgICBwYXR0ZXJuOiB0aW1lPSIle1RJTUVTVEFNUF9JU084NjAxOnRpbWVzdGFtcH0iLiovYXV0aC9sb2dpbi4qaHR0cFN0YXR1cz00MDEgcmVtb3RlQWRkcj0le0lQOnNvdXJjZV9pcH0uKnVzZXJBZ2VudD0iJXtOT1REUVVPVEU6aHR0cF91c2VyX2FnZW50fSIKICAgICAgYXBwbHlfb246IG1lc3NhZ2UKICAgICAgc3RhdGljczoKICAgICAgICAtIG1ldGE6IGxvZ190eXBlCiAgICAgICAgICB2YWx1ZTogbmF2aWRyb21lX2ZhaWxlZF9hdXRoCiAgICAgICAgLSBtZXRhOiBodHRwX3N0YXR1cwogICAgICAgICAgdmFsdWU6ICI0MDEiCnN0YXRpY3M6CiAgLSBtZXRhOiBzZXJ2aWNlCiAgICB2YWx1ZTogbmF2aWRyb21lCiAgLSB0YXJnZXQ6IGV2dC5TdHJUaW1lCiAgICBleHByZXNzaW9uOiBldnQuUGFyc2VkLnRpbWVzdGFtcAogIC0gbWV0YTogc291cmNlX2lwCiAgICBleHByZXNzaW9uOiBldnQuUGFyc2VkLnNvdXJjZV9pcAogIC0gbWV0YTogaHR0cF91c2VyX2FnZW50CiAgICBleHByZXNzaW9uOiBldnQuUGFyc2VkLmh0dHBfdXNlcl9hZ2VudAo=",
+      "content": "LS0tCiNkZWJ1ZzogdHJ1ZQpmaWx0ZXI6ICJldnQuUGFyc2VkLnByb2dyYW0gPT0gJ25hdmlkcm9tZScgJiYgUGFyc2VLVihldnQuUGFyc2VkLm1lc3NhZ2UsIGV2dC5Vbm1hcnNoYWxlZCwgJ25hdmlkcm9tZScpIGluIFsnJywgbmlsXSIKb25zdWNjZXNzOiBuZXh0X3N0YWdlCm5hbWU6IHNkd2lsc2gvbmF2aWRyb21lLWxvZ3MKZGVzY3JpcHRpb246IFBhcnNlcyBsb2dzIGZyb20gTmF2aWRyb21lCnN0YXRpY3M6CiAgLSBtZXRhOiBzZXJ2aWNlCiAgICB2YWx1ZTogbmF2aWRyb21lCiAgLSBtZXRhOiBsb2dfdHlwZQogICAgZXhwcmVzc2lvbjogfAogICAgICBldnQuVW5tYXJzaGFsZWQubmF2aWRyb21lLmh0dHBTdGF0dXMgPT0gJzQwMScgJiYgZXZ0LlVubWFyc2hhbGVkLm5hdmlkcm9tZS5tc2cgY29udGFpbnMgJy9hdXRoL2xvZ2luJyA/ICduYXZpZHJvbWVfZmFpbGVkX2F1dGgnIDogJycKICAtIG1ldGE6IGh0dHBfc3RhdHVzCiAgICBleHByZXNzaW9uOiBldnQuVW5tYXJzaGFsZWQubmF2aWRyb21lLmh0dHBTdGF0dXMKICAtIHRhcmdldDogZXZ0LlN0clRpbWUKICAgIGV4cHJlc3Npb246IGV2dC5Vbm1hcnNoYWxlZC5uYXZpZHJvbWUudGltZQogIC0gbWV0YTogc291cmNlX2lwCiAgICBleHByZXNzaW9uOiBldnQuVW5tYXJzaGFsZWQubmF2aWRyb21lLnJlbW90ZUFkZHIKICAtIG1ldGE6IGh0dHBfdXNlcl9hZ2VudAogICAgZXhwcmVzc2lvbjogZXZ0LlVubWFyc2hhbGVkLm5hdmlkcm9tZS51c2VyQWdlbnQK",
       "description": "Parses logs from Navidrome",
       "labels": null,
       "long_description": "IyBOYXZpZHJvbWUKCkEgbG9nIHBhcnNlciBmb3IgW05hdmlkcm9tZV0oaHR0cHM6Ly93d3cubmF2aWRyb21lLm9yZy8pLgoKIyMgQWNxdWlzaXRpb24gRXhhbXBsZXMKCiMjIyBEb2NrZXIKYGBgeWFtbAotLS0Kc291cmNlOiBkb2NrZXIKY29udGFpbmVyX25hbWU6CiAtIG5hdmlkcm9tZQpjb250YWluZXJfaWQ6CiAtIDAwZGVhZGJlZWYwMApsYWJlbHM6CiAgdHlwZTogbmF2aWRyb21lCmBgYAoKIyMjIExvZyBGaWxlCmBgYHlhbWwKLS0tCmZpbGVuYW1lczoKIC0gL3Zhci9sb2cvbmF2aWRyb21lL25hdmlkcm9tZS5sb2cKbGFiZWxzOgogIHR5cGU6IG5hdmlkcm9tZQpgYGAKCiMjIyBMb2tpIFF1ZXJ5CmBgYHlhbWwKLS0tCnNvdXJjZTogbG9raQp1cmw6IGh0dHA6Ly9sb2tpLmRvbWFpbjozMTAwLwpxdWVyeTogfAogIHtuYW1lc3BhY2U9Im5hdmlkcm9tZSIsIGNvbnRhaW5lcj0ibmF2aWRyb21lIn0KbGFiZWxzOgogIHR5cGU6IG5hdmlkcm9tZQpgYGA=",
       "path": "parsers/s01-parse/sdwilsh/navidrome-logs.yaml",
       "stage": "s01-parse",
-      "version": "0.1",
+      "version": "0.2",
       "versions": {
         "0.1": {
           "deprecated": false,
           "digest": "d11a666f6d9e26803baaf1b69e623bd8066abf594a3872cbc4da7f7a8d8f7d09"
+        },
+        "0.2": {
+          "deprecated": false,
+          "digest": "7fa8d7324d1ffc93f9d69c453b8b9fdcbd214703ad3c15552b0cd1367a7e1481"
         }
       }
     },
