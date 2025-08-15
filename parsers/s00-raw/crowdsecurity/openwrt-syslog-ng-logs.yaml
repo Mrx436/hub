@@ -6,6 +6,10 @@ name: crowdsecurity/openwrt-syslog-ng-logs
 nodes:
   - grok:
       #this is a named regular expression. grok patterns can be kept into separate files for readability
+<<<<<<< HEAD
+=======
+      #pattern: '%{CISCOTIMESTAMP:timestamp}'
+>>>>>>> 9817e839 (fixed openwrt Parser)
       pattern: '%{MONTH:log_month} %{MONTHDAY:log_days} %{TIME:log_time} %{HOSTNAME:host} %{DATA:program}\[%{NUMBER:pid}\]:'
       #This is the field of the `Event` to which the regexp should be applied
       apply_on: Line.Raw
@@ -14,6 +18,10 @@ statics:
   - parsed: message
     expression: evt.Line.Raw
   - target: evt.StrTime
+<<<<<<< HEAD
+=======
+    #expression: timestamp
+>>>>>>> 9817e839 (fixed openwrt Parser)
     expression: evt.Parsed.log_month + ' ' + evt.Parsed.log_days + ' ' + evt.Parsed.log_time
   - meta: datasource_path
     expression: evt.Line.Src
