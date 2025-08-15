@@ -1,1 +1,1 @@
-Aug  1 13:52:42 OpenWrt haproxy[2106]: 115.231.78.11:32598 [01/Aug/2025:13:52:42.303] https_in~ https_in/<NOSRV> 0/-1/-1/-1/0 503 217 - - SC-- 1/1/0/0/0 0/0 "GET /favicon.ico HTTP/1.1"
+Aug 14 08:01:25 OpenWrt haproxy[26258]: 49.51.36.179:33760 [14/Aug/2025:08:01:25.503] http_in http_in/<NOSRV> 2/-1/-1/-1/2 403 14394 - - LR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
