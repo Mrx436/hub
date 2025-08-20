@@ -1,9 +1,9 @@
 # myservice bruteforce
 type: leaky
-name: crowdsecurity/my-haproxy-http-bf
-description: "Detect myservice bruteforce"
-filter: "evt.Meta.http_status in ['302', '404', '403', '400', '503']"
-leakspeed: "10s"
+name: crowdsecurity/my-random-captcha
+description: "After 5 visits forces a captcha on the ip"
+filter: 1 == 1
+leakspeed: "8h"
 capacity: 5
 groupby: evt.Meta.source_ip
 blackhole: 1m
@@ -13,5 +13,5 @@ labels:
   confidence: 3
   spoofable: 0
   behavior: "haproxy:bruteforce"
-  label: "haproxy http bruteforce"
+  label: "random captcha"
   remediation: true
