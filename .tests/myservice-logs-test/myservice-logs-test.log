@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2025-08-20T13:37:09+02:00 OpenWrt haproxy[10745]: 162.158.81.158:50397 [20/Aug/2025:13:37:09.012] https_in/1: Connection closed during SSL handshake
 2025-08-20T13:37:09+02:00 OpenWrt haproxy[10745]: 172.71.10.77:33907 [20/Aug/2025:13:37:09.165] https_in/1: Connection closed during SSL handshake
 2025-08-20T13:37:09+02:00 OpenWrt haproxy[10745]: 162.158.81.158:28411 [20/Aug/2025:13:37:09.187] https_in/1: Connection closed during SSL handshake
@@ -98,3 +99,6 @@
 2025-08-20T14:54:19+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=703 st=0 0/0/0/0/0 1/1 0/0 0/237
 2025-08-20T14:54:19+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=703 st=0 0/0/0/0/0 2/2 0/0 0/238
 2025-08-20T14:54:19+02:00 OpenWrt haproxy[10745]: 91.224.92.17:57962 [20/Aug/2025:14:54:19.068] http_in http_in/<NOSRV> 1/-1/-1/-1/1 302 106 - - LR-- 2/1/0/0/0 0/0 "GET / HTTP/1.1"
+=======
+Aug 14 08:01:25 OpenWrt haproxy[26258]: 49.51.36.179:33760 [14/Aug/2025:08:01:25.503] http_in http_in/<NOSRV> 2/-1/-1/-1/2 403 14394 - - LR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+>>>>>>> master
