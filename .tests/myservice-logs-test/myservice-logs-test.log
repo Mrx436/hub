@@ -1,104 +1,50 @@
-<<<<<<< HEAD
-2025-08-20T13:37:09+02:00 OpenWrt haproxy[10745]: 162.158.81.158:50397 [20/Aug/2025:13:37:09.012] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:09+02:00 OpenWrt haproxy[10745]: 172.71.10.77:33907 [20/Aug/2025:13:37:09.165] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:09+02:00 OpenWrt haproxy[10745]: 162.158.81.158:28411 [20/Aug/2025:13:37:09.187] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:09+02:00 OpenWrt haproxy[10745]: 172.71.10.77:31901 [20/Aug/2025:13:37:09.379] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:09+02:00 OpenWrt haproxy[10745]: 172.71.10.77:40417 [20/Aug/2025:13:37:09.607] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:11+02:00 OpenWrt haproxy[10745]: 172.69.127.131:53331 [20/Aug/2025:13:37:11.221] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:11+02:00 OpenWrt haproxy[10745]: 172.69.127.131:36685 [20/Aug/2025:13:37:11.391] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:11+02:00 OpenWrt haproxy[10745]: 172.69.127.131:10591 [20/Aug/2025:13:37:11.561] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:11+02:00 OpenWrt haproxy[10745]: 172.69.127.131:13863 [20/Aug/2025:13:37:11.737] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:11+02:00 OpenWrt haproxy[10745]: 172.69.127.131:60461 [20/Aug/2025:13:37:11.904] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:12+02:00 OpenWrt haproxy[10745]: 111.170.27.102:50525 [20/Aug/2025:13:37:12.965] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:13+02:00 OpenWrt haproxy[10745]: 111.170.27.102:40987 [20/Aug/2025:13:37:13.195] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:14+02:00 OpenWrt haproxy[10745]: 111.170.27.102:23819 [20/Aug/2025:13:37:14.327] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:18+02:00 OpenWrt haproxy[10745]: 172.70.101.133:25439 [20/Aug/2025:13:37:18.887] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:19+02:00 OpenWrt haproxy[10745]: 172.70.101.133:55847 [20/Aug/2025:13:37:19.161] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:19+02:00 OpenWrt haproxy[10745]: 172.70.101.133:62273 [20/Aug/2025:13:37:19.414] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:19+02:00 OpenWrt haproxy[10745]: 172.70.101.133:60913 [20/Aug/2025:13:37:19.677] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:19+02:00 OpenWrt haproxy[10745]: 172.70.101.133:44315 [20/Aug/2025:13:37:19.941] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:31+02:00 OpenWrt haproxy[10745]: 172.70.139.132:21325 [20/Aug/2025:13:37:31.152] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:31+02:00 OpenWrt haproxy[10745]: 172.70.103.133:61475 [20/Aug/2025:13:37:31.220] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:31+02:00 OpenWrt haproxy[10745]: 172.70.139.132:30011 [20/Aug/2025:13:37:31.424] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:31+02:00 OpenWrt haproxy[10745]: 172.70.103.133:58297 [20/Aug/2025:13:37:31.474] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:31+02:00 OpenWrt haproxy[10745]: 172.70.139.132:31223 [20/Aug/2025:13:37:31.667] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:31+02:00 OpenWrt haproxy[10745]: 172.70.103.133:59599 [20/Aug/2025:13:37:31.733] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:31+02:00 OpenWrt haproxy[10745]: 172.70.139.132:27807 [20/Aug/2025:13:37:31.916] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:31+02:00 OpenWrt haproxy[10745]: 172.70.103.133:30219 [20/Aug/2025:13:37:31.996] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:32+02:00 OpenWrt haproxy[10745]: 172.70.139.132:57199 [20/Aug/2025:13:37:32.191] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:32+02:00 OpenWrt haproxy[10745]: 172.70.103.133:26379 [20/Aug/2025:13:37:32.271] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:44+02:00 OpenWrt haproxy[10745]: 172.70.154.131:33489 [20/Aug/2025:13:37:44.655] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:44+02:00 OpenWrt haproxy[10745]: 172.70.154.131:17221 [20/Aug/2025:13:37:44.906] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:45+02:00 OpenWrt haproxy[10745]: 172.70.154.131:34401 [20/Aug/2025:13:37:45.164] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:45+02:00 OpenWrt haproxy[10745]: 172.70.154.131:20357 [20/Aug/2025:13:37:45.420] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:37:45+02:00 OpenWrt haproxy[10745]: 172.70.154.131:34355 [20/Aug/2025:13:37:45.676] https_in/1: Connection closed during SSL handshake
-2025-08-20T13:38:15+02:00 OpenWrt haproxy[10745]: 20.171.25.78:37558 [20/Aug/2025:13:38:15.138] https_in~ https_in/<NOSRV> -1/-1/-1/-1/296 400 0 - - CR-- 2/2/0/0/0 0/0 "<BADREQ>"
-2025-08-20T13:40:51+02:00 OpenWrt haproxy[10745]: 128.192.12.121:46147 [20/Aug/2025:13:40:51.426] https_in~ https_in/<NOSRV> -1/-1/-1/-1/125 400 0 - - CR-- 2/2/0/0/0 0/0 "<BADREQ>"
-2025-08-20T13:41:19+02:00 OpenWrt haproxy[10745]: 172.68.105.132:21807 [20/Aug/2025:13:36:19.464] https_in/1: Timeout during SSL handshake
-2025-08-20T13:41:23+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=660 st=0 0/0/0/0/1 1/1 0/0 0/205
-2025-08-20T13:41:23+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=660 st=0 0/0/0/0/0 2/2 0/0 0/206
-2025-08-20T13:41:23+02:00 OpenWrt haproxy[10745]: 196.251.114.43:46136 [20/Aug/2025:13:41:23.419] https_in~ https_in/<NOSRV> 2/-1/-1/-1/2 403 14394 - - LR-- 1/1/0/0/0 0/0 "GET /.git/index HTTP/1.1"
-2025-08-20T13:45:23+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=663 st=0 0/0/0/0/0 1/1 0/0 0/229
-2025-08-20T13:45:23+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=663 st=0 0/0/0/0/0 2/2 0/0 0/230
-2025-08-20T13:45:23+02:00 OpenWrt haproxy[10745]: 182.42.111.156:59347 [20/Aug/2025:13:45:23.250] http_in http_in/<NOSRV> 1/-1/-1/-1/1 403 14394 - - LR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
-2025-08-20T13:47:41+02:00 OpenWrt haproxy[10745]: 185.242.226.124:61199 [20/Aug/2025:13:47:41.655] https_in/1: SSL handshake failure
-2025-08-20T13:47:42+02:00 OpenWrt haproxy[10745]: 185.242.226.124:43979 [20/Aug/2025:13:47:42.040] https_in/1: SSL handshake failure
-2025-08-20T13:57:54+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=666 st=0 0/0/0/0/1 1/1 0/0 0/231
-2025-08-20T13:57:54+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=666 st=0 0/0/0/0/0 2/2 0/0 0/232
-2025-08-20T13:57:54+02:00 OpenWrt haproxy[10745]: 43.153.48.240:49748 [20/Aug/2025:13:57:54.895] http_in http_in/<NOSRV> 2/-1/-1/-1/2 302 105 - - LR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
-2025-08-20T13:57:56+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=669 st=0 0/0/0/0/0 1/1 0/0 0/207
-2025-08-20T13:57:56+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=669 st=0 0/0/0/0/0 2/2 0/0 0/208
-2025-08-20T13:57:56+02:00 OpenWrt haproxy[10745]: 43.153.48.240:38260 [20/Aug/2025:13:57:56.385] https_in~ https_in/<NOSRV> 1/-1/-1/-1/1 503 217 - - SC-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
-2025-08-20T14:10:40+02:00 OpenWrt haproxy[10745]: 43.157.168.43:41504 [20/Aug/2025:14:10:39.810] https_in/1: SSL handshake failure (error:0A00009C:SSL routines::http request)
-2025-08-20T14:41:08+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=672 st=0 0/0/0/0/0 1/1 0/0 0/233
-2025-08-20T14:41:08+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=672 st=0 0/0/0/0/0 2/2 0/0 0/234
-2025-08-20T14:41:08+02:00 OpenWrt haproxy[10745]: 196.251.69.194:39208 [20/Aug/2025:14:41:08.220] http_in http_in/<NOSRV> 0/-1/-1/-1/0 302 106 - - LR-- 1/1/0/0/0 0/0 "GET / HTTP/1.0"
-2025-08-20T14:43:00+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=675 st=0 0/0/0/0/0 1/1 0/0 0/209
-2025-08-20T14:43:00+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=675 st=0 0/0/0/0/0 2/2 0/0 0/210
-2025-08-20T14:43:00+02:00 OpenWrt haproxy[10745]: 8.130.18.110:58056 [20/Aug/2025:14:43:00.018] https_in~ https_in/<NOSRV> 0/-1/-1/-1/1 503 217 - - SC-- 1/1/0/0/0 0/0 "GET https://188.155.64.74/stats HTTP/2.0"
-2025-08-20T14:43:00+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=678 st=0 0/0/0/0/0 2/2 0/0 0/211
-2025-08-20T14:43:00+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=678 st=0 0/0/0/0/0 2/2 0/0 0/212
-2025-08-20T14:43:00+02:00 OpenWrt haproxy[10745]: 8.130.18.110:58056 [20/Aug/2025:14:43:00.185] https_in~ https_in/<NOSRV> 1/-1/-1/-1/1 503 217 - - SC-- 1/1/0/0/0 0/0 "GET https://188.155.64.74/.env.bak HTTP/2.0"
-2025-08-20T14:43:00+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=679 st=0 0/0/0/0/0 2/2 0/0 0/213
-2025-08-20T14:43:00+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=679 st=0 0/0/0/0/0 2/2 0/0 0/214
-2025-08-20T14:43:00+02:00 OpenWrt haproxy[10745]: 8.130.18.110:58056 [20/Aug/2025:14:43:00.350] https_in~ https_in/<NOSRV> 1/-1/-1/-1/1 503 217 - - SC-- 1/1/0/0/0 0/0 "GET https://188.155.64.74/version HTTP/2.0"
-2025-08-20T14:43:00+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=680 st=0 0/0/0/0/0 2/2 0/0 0/215
-2025-08-20T14:43:00+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=680 st=0 0/0/0/0/0 2/2 0/0 0/216
-2025-08-20T14:43:00+02:00 OpenWrt haproxy[10745]: 8.130.18.110:58056 [20/Aug/2025:14:43:00.516] https_in~ https_in/<NOSRV> 1/-1/-1/-1/1 503 217 - - SC-- 1/1/0/0/0 0/0 "GET https://188.155.64.74/.env HTTP/2.0"
-2025-08-20T14:43:00+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=681 st=0 0/0/0/0/0 2/2 0/0 0/217
-2025-08-20T14:43:00+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=681 st=0 0/0/0/0/0 2/2 0/0 0/218
-2025-08-20T14:43:00+02:00 OpenWrt haproxy[10745]: 8.130.18.110:58056 [20/Aug/2025:14:43:00.682] https_in~ https_in/<NOSRV> 0/-1/-1/-1/1 503 217 - - SC-- 1/1/0/0/0 0/0 "GET https://188.155.64.74/openapi/v2 HTTP/2.0"
-2025-08-20T14:43:00+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=682 st=0 0/0/0/0/0 2/2 0/0 0/219
-2025-08-20T14:43:00+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=682 st=0 0/0/0/0/0 2/2 0/0 0/220
-2025-08-20T14:43:00+02:00 OpenWrt haproxy[10745]: 8.130.18.110:58056 [20/Aug/2025:14:43:00.847] https_in~ https_in/<NOSRV> 1/-1/-1/-1/1 503 217 - - SC-- 1/1/0/0/0 0/0 "GET https://188.155.64.74/api HTTP/2.0"
-2025-08-20T14:43:01+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=683 st=0 0/0/0/0/0 2/2 0/0 0/221
-2025-08-20T14:43:01+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=683 st=0 0/0/0/0/0 2/2 0/0 0/222
-2025-08-20T14:43:01+02:00 OpenWrt haproxy[10745]: 8.130.18.110:58056 [20/Aug/2025:14:43:01.013] https_in~ https_in/<NOSRV> 1/-1/-1/-1/1 503 217 - - SC-- 1/1/0/0/0 0/0 "GET https://188.155.64.74/ HTTP/2.0"
-2025-08-20T14:43:01+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=684 st=0 0/0/0/0/0 2/2 0/0 0/223
-2025-08-20T14:43:01+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=684 st=0 0/0/0/0/0 2/2 0/0 0/224
-2025-08-20T14:43:01+02:00 OpenWrt haproxy[10745]: 8.130.18.110:58056 [20/Aug/2025:14:43:01.179] https_in~ https_in/<NOSRV> 1/-1/-1/-1/1 503 217 - - SC-- 1/1/0/0/0 0/0 "GET https://188.155.64.74/containers/json HTTP/2.0"
-2025-08-20T14:44:54+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=685 st=0 0/0/0/0/0 1/1 0/0 0/225
-2025-08-20T14:44:54+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=685 st=0 0/0/0/0/0 2/2 0/0 0/226
-2025-08-20T14:44:54+02:00 OpenWrt haproxy[10745]: 194.230.144.81:9274 [20/Aug/2025:14:44:54.639] https_in~ alex_homelab_login/<NOSRV> 1/-1/-1/-1/1 401 263 - - LR-- 1/1/0/0/0 0/0 "GET https://alex-homelab.swissminers.top/hl_login/tuqrenxsjmzkwioh HTTP/2.0"
-2025-08-20T14:45:12+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=688 st=0 0/0/0/0/0 3/3 0/0 0/227
-2025-08-20T14:45:12+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=688 st=0 0/0/0/0/0 4/4 0/0 0/228
-2025-08-20T14:45:12+02:00 OpenWrt haproxy[10745]: 194.230.144.81:9275 [20/Aug/2025:14:45:12.579] https_in~ alex_homelab_login/<NOSRV> 1/-1/-1/-1/1 200 80 - - LR-- 1/1/0/0/0 0/0 "GET https://alex-homelab.swissminers.top/hl_login/tuqrenxsjmzkwioh HTTP/2.0"
-2025-08-20T14:45:13+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=691 st=0 0/0/0/0/0 4/4 0/0 0/229
-2025-08-20T14:45:13+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=691 st=0 0/0/0/0/0 4/4 0/0 0/230
-2025-08-20T14:45:13+02:00 OpenWrt haproxy[10745]: 194.230.144.81:9275 [20/Aug/2025:14:45:13.277] https_in~ https_in/<NOSRV> 0/-1/-1/-1/1 503 217 - - SC-- 1/1/0/0/0 0/0 "GET https://alex-homelab.swissminers.top/favicon.ico HTTP/2.0"
-2025-08-20T14:46:31+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=693 st=0 0/0/0/0/0 1/1 0/0 0/231
-2025-08-20T14:46:31+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=693 st=0 0/0/0/0/0 2/2 0/0 0/232
-2025-08-20T14:46:31+02:00 OpenWrt haproxy[10745]: 194.230.144.81:9276 [20/Aug/2025:14:46:31.699] https_in~ alex_homelab_login/<NOSRV> 1/-1/-1/-1/1 401 263 - - LR-- 2/1/0/0/0 0/0 "GET https://alex-homelab.swissminers.top/hl_login/tuqrenxsjmzkwioh HTTP/2.0"
-2025-08-20T14:47:02+02:00 OpenWrt haproxy[10745]: 64.225.60.187:38146 [20/Aug/2025:14:47:02.100] https_in~ https_in/<NOSRV> -1/-1/-1/-1/115 400 0 - - CR-- 2/1/0/0/0 0/0 "<BADREQ>"
-2025-08-20T14:51:04+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=697 st=0 0/0/0/0/0 1/1 0/0 0/235
-2025-08-20T14:51:04+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=697 st=0 0/0/0/0/0 2/2 0/0 0/236
-2025-08-20T14:51:04+02:00 OpenWrt haproxy[10745]: 43.166.134.114:34782 [20/Aug/2025:14:51:04.490] http_in http_in/<NOSRV> 1/-1/-1/-1/1 302 103 - - LR-- 2/1/0/0/0 0/0 "GET / HTTP/1.1"
-2025-08-20T14:51:05+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=700 st=0 0/0/0/0/0 1/1 0/0 0/233
-2025-08-20T14:51:05+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=700 st=0 0/0/0/0/0 2/2 0/0 0/234
-2025-08-20T14:51:05+02:00 OpenWrt haproxy[10745]: 43.166.134.114:36806 [20/Aug/2025:14:51:05.668] https_in~ https_in/<NOSRV> 1/-1/-1/-1/2 503 217 - - SC-- 2/1/0/0/0 0/0 "GET / HTTP/1.1"
-2025-08-20T14:54:19+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-client-session> sid=703 st=0 0/0/0/0/0 1/1 0/0 0/237
-2025-08-20T14:54:19+02:00 OpenWrt haproxy[10745]: SPOE: [crowdsec-agent] <EVENT:on-frontend-http-request> sid=703 st=0 0/0/0/0/0 2/2 0/0 0/238
-2025-08-20T14:54:19+02:00 OpenWrt haproxy[10745]: 91.224.92.17:57962 [20/Aug/2025:14:54:19.068] http_in http_in/<NOSRV> 1/-1/-1/-1/1 302 106 - - LR-- 2/1/0/0/0 0/0 "GET / HTTP/1.1"
-=======
-Aug 14 08:01:25 OpenWrt haproxy[26258]: 49.51.36.179:33760 [14/Aug/2025:08:01:25.503] http_in http_in/<NOSRV> 2/-1/-1/-1/2 403 14394 - - LR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
->>>>>>> master
+2025-08-22T08:44:30+02:00 OpenWrt haproxy[29301]: 91.224.92.14:49168 [22/Aug/2025:08:44:30.763] http_in http_in/<NOSRV> 0/-1/-1/-1/1 -1 0 - - PR-- 2/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T08:45:58+02:00 OpenWrt haproxy[29301]: 104.152.52.211:42063 [22/Aug/2025:08:45:58.311] https_in~ https_in/<NOSRV> 2/-1/-1/-1/2 -1 0 - - PR-- 2/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T09:34:11+02:00 OpenWrt haproxy[29301]: 182.43.70.143:33575 [22/Aug/2025:09:34:11.472] http_in http_in/<NOSRV> 1/-1/-1/-1/1 -1 0 - - PR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T10:09:58+02:00 OpenWrt haproxy[29301]: 94.156.152.158:47368 [22/Aug/2025:10:09:58.141] http_in http_in/<NOSRV> 0/-1/-1/-1/0 -1 0 - - PR-- 2/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T10:25:28+02:00 OpenWrt haproxy[29301]: 206.168.34.206:48256 [22/Aug/2025:10:25:28.998] http_in http_in/<NOSRV> 0/-1/-1/-1/1 -1 0 - - PR-- 2/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T10:25:55+02:00 OpenWrt haproxy[29301]: 206.168.34.206:49348 [22/Aug/2025:10:25:55.463] http_in http_in/<NOSRV> 1/-1/-1/-1/2 -1 0 - - PR-- 2/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T10:26:21+02:00 OpenWrt haproxy[29301]: 206.168.34.206:36308 [22/Aug/2025:10:26:21.079] http_in http_in/<NOSRV> 1/-1/-1/-1/1 -1 0 - - PR-- 2/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T10:44:22+02:00 OpenWrt haproxy[29301]: 91.224.92.17:49126 [22/Aug/2025:10:44:22.622] http_in http_in/<NOSRV> 0/-1/-1/-1/1 -1 0 - - PR-- 2/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T10:57:01+02:00 OpenWrt haproxy[29301]: 64.227.76.184:58298 [22/Aug/2025:10:57:01.535] https_in~ https_in/<NOSRV> 0/-1/-1/-1/1 -1 0 - - PR-- 2/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T10:57:25+02:00 OpenWrt haproxy[29301]: 43.153.104.196:44588 [22/Aug/2025:10:57:25.938] http_in http_in/<NOSRV> 1/-1/-1/-1/1 -1 0 - - PR-- 2/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T11:02:59+02:00 OpenWrt haproxy[29301]: 196.251.80.177:33122 [22/Aug/2025:11:02:59.436] https_in~ https_in/<NOSRV> 1/-1/-1/-1/1 -1 0 - - PR-- 2/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T11:11:30+02:00 OpenWrt haproxy[29301]: 43.135.142.7:59858 [22/Aug/2025:11:11:30.695] http_in http_in/<NOSRV> 1/-1/-1/-1/2 -1 0 - - PR-- 3/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T11:13:37+02:00 OpenWrt haproxy[29301]: 91.224.92.14:59770 [22/Aug/2025:11:13:37.816] http_in http_in/<NOSRV> 0/-1/-1/-1/1 -1 0 - - PR-- 2/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T11:30:06+02:00 OpenWrt haproxy[29301]: 104.234.115.88:44008 [22/Aug/2025:11:30:06.245] http_in http_in/<NOSRV> 1/-1/-1/-1/1 -1 0 - - PR-- 3/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T11:33:46+02:00 OpenWrt haproxy[29301]: 91.224.92.17:37958 [22/Aug/2025:11:33:46.390] http_in http_in/<NOSRV> 0/-1/-1/-1/1 -1 0 - - PR-- 3/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T11:34:43+02:00 OpenWrt haproxy[29301]: 45.135.193.253:45240 [22/Aug/2025:11:34:43.090] http_in http_in/<NOSRV> 1/-1/-1/-1/1 -1 0 - - PR-- 3/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T11:37:37+02:00 OpenWrt haproxy[29301]: 91.224.92.14:41112 [22/Aug/2025:11:37:37.321] http_in http_in/<NOSRV> 0/-1/-1/-1/1 -1 0 - - PR-- 2/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T11:39:32+02:00 OpenWrt haproxy[29301]: 178.79.183.23:60685 [22/Aug/2025:11:39:32.931] http_in http_in/<NOSRV> 0/-1/-1/-1/1 -1 0 - - PR-- 2/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T12:08:56+02:00 OpenWrt haproxy[29301]: 141.148.153.213:15356 [22/Aug/2025:12:08:56.991] https_in~ https_in/<NOSRV> 1/-1/-1/-1/3 -1 0 - - PR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T12:08:57+02:00 OpenWrt haproxy[29301]: 141.148.153.213:30470 [22/Aug/2025:12:08:57.737] https_in~ https_in/<NOSRV> 1/-1/-1/-1/4 -1 0 - - PR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T12:09:04+02:00 OpenWrt haproxy[29301]: 141.148.153.213:5031 [22/Aug/2025:12:09:04.630] https_in~ https_in/<NOSRV> 1/-1/-1/-1/3 -1 0 - - PR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T12:09:05+02:00 OpenWrt haproxy[29301]: 141.148.153.213:29628 [22/Aug/2025:12:09:05.399] https_in~ https_in/<NOSRV> 1/-1/-1/-1/3 -1 0 - - PR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T12:13:14+02:00 OpenWrt haproxy[29301]: 141.148.153.213:57756 [22/Aug/2025:12:13:14.245] https_in~ https_in/<NOSRV> 2/-1/-1/-1/3 -1 0 - - PR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T12:13:15+02:00 OpenWrt haproxy[29301]: 141.148.153.213:48443 [22/Aug/2025:12:13:15.275] https_in~ https_in/<NOSRV> 1/-1/-1/-1/2 -1 0 - - PR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T12:13:26+02:00 OpenWrt haproxy[29301]: 141.148.153.213:41496 [22/Aug/2025:12:13:26.224] https_in~ https_in/<NOSRV> 1/-1/-1/-1/2 -1 0 - - PR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T12:13:26+02:00 OpenWrt haproxy[29301]: 141.148.153.213:20282 [22/Aug/2025:12:13:26.979] https_in~ https_in/<NOSRV> 1/-1/-1/-1/2 -1 0 - - PR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T12:18:37+02:00 OpenWrt haproxy[29301]: 141.148.153.213:60334 [22/Aug/2025:12:18:37.196] https_in~ https_in/<NOSRV> 1/-1/-1/-1/2 -1 0 - - PR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T12:18:37+02:00 OpenWrt haproxy[29301]: 141.148.153.213:63284 [22/Aug/2025:12:18:37.946] https_in~ https_in/<NOSRV> 1/-1/-1/-1/2 -1 0 - - PR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T12:19:33+02:00 OpenWrt haproxy[29301]: 141.148.153.213:62239 [22/Aug/2025:12:19:33.133] https_in~ https_in/<NOSRV> 1/-1/-1/-1/2 -1 0 - - PR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T12:19:33+02:00 OpenWrt haproxy[29301]: 141.148.153.213:52893 [22/Aug/2025:12:19:33.887] https_in~ https_in/<NOSRV> 1/-1/-1/-1/3 -1 0 - - PR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T12:19:43+02:00 OpenWrt haproxy[29301]: 141.148.153.213:16407 [22/Aug/2025:12:19:43.850] https_in~ https_in/<NOSRV> 1/-1/-1/-1/2 -1 0 - - PR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T12:19:44+02:00 OpenWrt haproxy[29301]: 141.148.153.213:38301 [22/Aug/2025:12:19:44.592] https_in~ https_in/<NOSRV> 1/-1/-1/-1/1 -1 0 - - PR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T12:38:23+02:00 OpenWrt haproxy[29301]: 121.229.185.160:49199 [22/Aug/2025:12:38:23.764] http_in http_in/<NOSRV> 0/-1/-1/-1/1 -1 0 - - PR-- 2/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T12:38:29+02:00 OpenWrt haproxy[29301]: 107.175.141.10:57294 [22/Aug/2025:12:38:29.032] http_in http_in/<NOSRV> 1/-1/-1/-1/1 -1 0 - - PR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T12:50:47+02:00 OpenWrt haproxy[29301]: 91.224.92.17:37770 [22/Aug/2025:12:50:47.540] http_in http_in/<NOSRV> 1/-1/-1/-1/1 -1 0 - - PR-- 3/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T12:54:20+02:00 OpenWrt haproxy[29301]: 98.84.37.134:59146 [22/Aug/2025:12:54:20.643] http_in http_in/<NOSRV> 0/-1/-1/-1/1 -1 0 - - PR-- 3/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T13:02:36+02:00 OpenWrt haproxy[29301]: 103.42.201.36:45232 [22/Aug/2025:13:02:36.930] http_in http_in/<NOSRV> 1/-1/-1/-1/2 -1 0 - - PR-- 3/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T13:21:11+02:00 OpenWrt haproxy[29301]: 43.153.36.110:48372 [22/Aug/2025:13:21:11.753] http_in http_in/<NOSRV> 1/-1/-1/-1/2 -1 0 - - PR-- 3/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T13:35:13+02:00 OpenWrt haproxy[29301]: 43.166.1.243:40960 [22/Aug/2025:13:35:13.643] http_in http_in/<NOSRV> 1/-1/-1/-1/1 -1 0 - - PR-- 3/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T13:43:03+02:00 OpenWrt haproxy[29301]: 91.224.92.17:41510 [22/Aug/2025:13:43:03.393] http_in http_in/<NOSRV> 0/-1/-1/-1/1 -1 0 - - PR-- 2/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T13:54:53+02:00 OpenWrt haproxy[29301]: 81.17.24.163:60967 [22/Aug/2025:13:54:53.149] http_in http_in/<NOSRV> 1/-1/-1/-1/2 -1 0 - - PR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T13:55:04+02:00 OpenWrt haproxy[29301]: 81.17.24.163:59390 [22/Aug/2025:13:55:04.685] https_in~ https_in/<NOSRV> 1/-1/-1/-1/1 -1 0 - - PR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T13:56:36+02:00 OpenWrt haproxy[29301]: 91.224.92.17:47338 [22/Aug/2025:13:56:36.956] http_in http_in/<NOSRV> 1/-1/-1/-1/1 -1 0 - - PR-- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T14:03:35+02:00 OpenWrt haproxy[29301]: 34.78.183.19:51658 [22/Aug/2025:14:03:35.326] https_in~ https_in/<NOSRV> 1/-1/-1/-1/1 -1 0 - - PR-- 3/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T14:15:26+02:00 OpenWrt haproxy[29301]: 43.135.138.128:51666 [22/Aug/2025:14:15:26.728] http_in http_in/<NOSRV> 1/-1/-1/-1/1 -1 0 - - PR-- 3/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T14:17:10+02:00 OpenWrt haproxy[29301]: 185.177.72.46:53772 [22/Aug/2025:14:17:10.042] http_in http_in/<NOSRV> 1/-1/-1/-1/1 -1 0 - - PR-- 4/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T14:18:19+02:00 OpenWrt haproxy[29301]: 91.224.92.14:47106 [22/Aug/2025:14:18:19.095] http_in http_in/<NOSRV> 0/-1/-1/-1/1 -1 0 - - PR-- 4/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T14:29:25+02:00 OpenWrt haproxy[29301]: 43.157.150.69:44868 [22/Aug/2025:14:29:25.707] http_in http_in/<NOSRV> 0/-1/-1/-1/1 -1 0 - - PR-- 4/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T14:37:54+02:00 OpenWrt haproxy[29301]: 20.65.194.103:47660 [22/Aug/2025:14:37:54.562] https_in~ https_in/<NOSRV> 1/-1/-1/-1/2 -1 0 - - PR-- 2/1/0/0/0 0/0 "GET / HTTP/1.1"
+2025-08-22T14:44:12+02:00 OpenWrt haproxy[29301]: 43.159.139.164:45752 [22/Aug/2025:14:44:12.228] http_in http_in/<NOSRV> 0/-1/-1/-1/1 -1 0 - - PR-- 3/1/0/0/0 0/0 "GET / HTTP/1.1"

@@ -6,6 +6,7 @@ parsers:
 scenarios:
     - ./scenarios/crowdsecurity/my-haproxy-http-bf.yaml
     - ./scenarios/crowdsecurity/my-haproxy-ssl-bf.yaml
+    - ./scenarios/crowdsecurity/my-haproxy-ban-droped-ip.yaml
     - ./scenarios/crowdsecurity/my-random-captcha.yaml
 postoverflows:
     - ""
