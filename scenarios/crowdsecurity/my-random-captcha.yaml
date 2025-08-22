@@ -1,12 +1,12 @@
 # myservice bruteforce
 type: leaky
 name: crowdsecurity/my-random-captcha
-description: "After 5 visits forces a captcha on the ip"
+description: "After 3 visits forces a captcha on the ip"
 filter: 1 == 1
 leakspeed: "8h"
 capacity: 5
 groupby: evt.Meta.source_ip
-blackhole: 1m
+blackhole: 24h
 reprocess: true
 labels:
   service: myservice
