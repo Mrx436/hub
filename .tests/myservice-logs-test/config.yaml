@@ -7,7 +7,7 @@ scenarios:
     - ./scenarios/crowdsecurity/my-haproxy-http-bf.yaml
     - ./scenarios/crowdsecurity/my-haproxy-ssl-bf.yaml
     - ./scenarios/crowdsecurity/my-haproxy-ban-droped-ip.yaml
-    - ./scenarios/crowdsecurity/my-random-captcha.yaml
+    - ./scenarios/crowdsecurity/my-haproxy-ssl-ddos.yaml
 postoverflows:
     - ""
 log_file: myservice-logs-test.log

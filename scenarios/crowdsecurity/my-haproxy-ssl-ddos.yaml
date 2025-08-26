@@ -1,0 +1,19 @@
+# myservice bruteforce
+type: leaky
+name: crowdsecurity/my-haproxy-ssl-ddos
+debug: true
+description: "Detect haproxy ssl ddos attack"
+filter: "evt.Meta.ASNNumber != '0' && evt.Meta.log_type == 'no_ssl_handshake'"
+leakspeed: "10s"
+capacity: 10
+groupby: "evt.Meta.ASNNumber"
+distinct: "evt.Meta.source_ip"
+blackhole: 1m
+reprocess: true
+labels:
+  service: haproxy
+  confidence: 3
+  spoofable: 0
+  behavior: "myservice:bruteforce"
+  label: "myservice bruteforce"
+  remediation: true
