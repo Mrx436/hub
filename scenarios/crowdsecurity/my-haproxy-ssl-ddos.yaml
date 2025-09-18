@@ -4,7 +4,7 @@ name: crowdsecurity/my-haproxy-ssl-ddos
 debug: true
 description: "Detect haproxy ssl ddos attack"
 filter: "evt.Meta.ASNNumber != '0' && evt.Meta.log_type == 'no_ssl_handshake'"
-leakspeed: "10s"
+leakspeed: "2s"
 capacity: 10
 groupby: "evt.Meta.ASNNumber"
 distinct: "evt.Meta.source_ip"
