@@ -15498,12 +15498,12 @@
     },
     "crowdsecurity/haproxy-logs": {
       "author": "crowdsecurity",
-      "content": "ZmlsdGVyOiAiZXZ0LlBhcnNlZC5wcm9ncmFtIHN0YXJ0c1dpdGggJ2hhcHJveHknIgpvbnN1Y2Nlc3M6IG5leHRfc3RhZ2UKbmFtZTogY3Jvd2RzZWN1cml0eS9oYXByb3h5LWxvZ3MKZGVzY3JpcHRpb246ICJQYXJzZSBoYXByb3h5IGh0dHAgbG9ncyIKbm9kZXM6Ci0gZ3JvazoKICAgIHBhdHRlcm46ICcle0lQOmNsaWVudF9pcH06JXtJTlQ6Y2xpZW50X3BvcnR9IFxbJXtIQVBST1hZREFURTphY2NlcHRfZGF0ZX1cXSAle05PVFNQQUNFOmZyb250ZW5kX25hbWV9ICV7Tk9UU1BBQ0U6YmFja2VuZF9uYW1lfS8le05PVFNQQUNFOnNlcnZlcl9uYW1lfSAle0lOVDp0aW1lX3JlcXVlc3R9LyV7SU5UOnRpbWVfcXVldWV9LyV7SU5UOnRpbWVfYmFja2VuZF9jb25uZWN0fS8le0lOVDp0aW1lX2JhY2tlbmRfcmVzcG9uc2V9LyV7Tk9UU1BBQ0U6dGltZV9kdXJhdGlvbn0gJXtJTlQ6aHR0cF9zdGF0dXNfY29kZX0gJXtOT1RTUEFDRTpieXRlc19yZWFkfSAle0RBVEE6Y2FwdHVyZWRfcmVxdWVzdF9jb29raWV9ICV7REFUQTpjYXB0dXJlZF9yZXNwb25zZV9jb29raWV9ICV7Tk9UU1BBQ0U6dGVybWluYXRpb25fc3RhdGV9ICV7SU5UOmFjdGNvbm59LyV7SU5UOmZlY29ubn0vJXtJTlQ6YmVjb25ufS8le0lOVDpzcnZjb25ufS8le05PVFNQQUNFOnJldHJpZXN9ICV7SU5UOnNydl9xdWV1ZX0vJXtJTlQ6YmFja2VuZF9xdWV1ZX0gKFx7JXtIQVBST1hZQ0FQVFVSRURSRVFVRVNUSEVBREVSU31cfSk/KCApPyhceyV7SEFQUk9YWUNBUFRVUkVEUkVTUE9OU0VIRUFERVJTfVx9KT8oICk/Iig8QkFEUkVRPnwoJXtXT1JEOmh0dHBfdmVyYn0gKCV7VVJJUFJPVE86aHR0cF9wcm90b306Ly8pPyg/OiV7VVNFUjpodHRwX3VzZXJ9KD86OlteQF0qKT9AKT8oPzole1VSSUhPU1Q6aHR0cF9ob3N0fSk/KD86JXtVUklQQVRIUEFSQU06aHR0cF9yZXF1ZXN0fSk/KCBIVFRQLyV7TlVNQkVSOmh0dHBfdmVyc2lvbn0pPykpPyInCiAgICBhcHBseV9vbjogbWVzc2FnZQogIHN0YXRpY3M6CiAgLSBtZXRhOiBsb2dfdHlwZQogICAgdmFsdWU6IGh0dHBfYWNjZXNzLWxvZwogICAgCi0gZ3JvazoKICAgIHBhdHRlcm46ICcle0lQOmNsaWVudF9pcH06JXtJTlQ6Y2xpZW50X3BvcnR9IFxbJXtIQVBST1hZREFURTphY2NlcHRfZGF0ZX1cXSAle05PVFNQQUNFOmZyb250ZW5kX25hbWV9LyV7Tk9UU1BBQ0U6c2VydmVyX25hbWV9OiBTU0wgaGFuZHNoYWtlIGZhaWx1cmUnCiAgICBhcHBseV9vbjogbWVzc2FnZQogIHN0YXRpY3M6CiAgICAtIG1ldGE6IGxvZ190eXBlCiAgICAgIHZhbHVlOiBiYWRfc3NsX2hhbmRzaGFrZQoKc3RhdGljczoKICAgICNIQVBST1hZREFURSBmb3JtYXQgaXMgdW5rbm93biB0byBkYXRlcGFyc2UsIGxldCBjb252ZXJ0IGl0IHRvIGEgZm9ybWF0IHdlIGtub3cgdG8gcGFyc2UKICAtIHRhcmdldDogZXZ0LlN0clRpbWUKICAgIGV4cHJlc3Npb246IGV2dC5QYXJzZWQuaGFwcm94eV9tb250aGRheSArICcvJyArIGV2dC5QYXJzZWQuaGFwcm94eV9tb250aCAgICsgJy8nICsgZXZ0LlBhcnNlZC5oYXByb3h5X3llYXIgICsgJzonICsgICBldnQuUGFyc2VkLmhhcHJveHlfaG91ciArICc6JyArIGV2dC5QYXJzZWQuaGFwcm94eV9taW51dGUgKyAnOicgKyAgZXZ0LlBhcnNlZC5oYXByb3h5X3NlY29uZFswOjJdICsgJyAtMDAwMCcKICAtIG1ldGE6IHNlcnZpY2UKICAgIHZhbHVlOiBodHRwCiAgLSBtZXRhOiBzb3VyY2VfaXAKICAgIGV4cHJlc3Npb246IGV2dC5QYXJzZWQuY2xpZW50X2lwCiAgLSBtZXRhOiBodHRwX3BhdGgKICAgIGV4cHJlc3Npb246IGV2dC5QYXJzZWQuaHR0cF9yZXF1ZXN0CiAgLSBtZXRhOiBodHRwX3N0YXR1cwogICAgZXhwcmVzc2lvbjogZXZ0LlBhcnNlZC5odHRwX3N0YXR1c19jb2RlCiAgLSBtZXRhOiBodHRwX3ZlcmIKICAgIGV4cHJlc3Npb246IGV2dC5QYXJzZWQuaHR0cF92ZXJiCiAgLSBwYXJzZWQ6IHJlcXVlc3QKICAgIGV4cHJlc3Npb246IGV2dC5QYXJzZWQuaHR0cF9yZXF1ZXN0CiAgLSBwYXJzZWQ6IHZlcmIKICAgIGV4cHJlc3Npb246IGV2dC5QYXJzZWQuaHR0cF92ZXJiCgo=",
+      "content": "ZmlsdGVyOiAiZXZ0LlBhcnNlZC5wcm9ncmFtIHN0YXJ0c1dpdGggJ2hhcHJveHknIgpvbnN1Y2Nlc3M6IG5leHRfc3RhZ2UKbmFtZTogY3Jvd2RzZWN1cml0eS9oYXByb3h5LWxvZ3MKZGVzY3JpcHRpb246ICJQYXJzZSBoYXByb3h5IGh0dHAgbG9ncyIKbm9kZXM6Ci0gZ3JvazoKICAgIHBhdHRlcm46ICcle0lQOmNsaWVudF9pcH06JXtJTlQ6Y2xpZW50X3BvcnR9IFxbJXtIQVBST1hZREFURTphY2NlcHRfZGF0ZX1cXSAle05PVFNQQUNFOmZyb250ZW5kX25hbWV9ICV7Tk9UU1BBQ0U6YmFja2VuZF9uYW1lfS8le05PVFNQQUNFOnNlcnZlcl9uYW1lfSAle0lOVDp0aW1lX3JlcXVlc3R9LyV7SU5UOnRpbWVfcXVldWV9LyV7SU5UOnRpbWVfYmFja2VuZF9jb25uZWN0fS8le0lOVDp0aW1lX2JhY2tlbmRfcmVzcG9uc2V9LyV7Tk9UU1BBQ0U6dGltZV9kdXJhdGlvbn0gJXtJTlQ6aHR0cF9zdGF0dXNfY29kZX0gJXtOT1RTUEFDRTpieXRlc19yZWFkfSAle0RBVEE6Y2FwdHVyZWRfcmVxdWVzdF9jb29raWV9ICV7REFUQTpjYXB0dXJlZF9yZXNwb25zZV9jb29raWV9ICV7Tk9UU1BBQ0U6dGVybWluYXRpb25fc3RhdGV9ICV7SU5UOmFjdGNvbm59LyV7SU5UOmZlY29ubn0vJXtJTlQ6YmVjb25ufS8le0lOVDpzcnZjb25ufS8le05PVFNQQUNFOnJldHJpZXN9ICV7SU5UOnNydl9xdWV1ZX0vJXtJTlQ6YmFja2VuZF9xdWV1ZX0gKFx7JXtIQVBST1hZQ0FQVFVSRURSRVFVRVNUSEVBREVSU31cfSk/KCApPyhceyV7SEFQUk9YWUNBUFRVUkVEUkVTUE9OU0VIRUFERVJTfVx9KT8oICk/Iig8QkFEUkVRPnwoJXtXT1JEOmh0dHBfdmVyYn0gKCV7VVJJUFJPVE86aHR0cF9wcm90b306Ly8pPyg/OiV7VVNFUjpodHRwX3VzZXJ9KD86OlteQF0qKT9AKT8oPzole1VSSUhPU1Q6aHR0cF9ob3N0fSk/KD86JXtVUklQQVRIUEFSQU06aHR0cF9yZXF1ZXN0fSk/KCBIVFRQLyV7TlVNQkVSOmh0dHBfdmVyc2lvbn0pPykpPyInCiAgICBhcHBseV9vbjogbWVzc2FnZQogIHN0YXRpY3M6CiAgLSBtZXRhOiBsb2dfdHlwZQogICAgdmFsdWU6IGh0dHBfYWNjZXNzLWxvZwogICAgCi0gZ3JvazoKICAgIHBhdHRlcm46ICcle0lQOmNsaWVudF9pcH06JXtJTlQ6Y2xpZW50X3BvcnR9IFxbJXtIQVBST1hZREFURTphY2NlcHRfZGF0ZX1cXSAle05PVFNQQUNFOmZyb250ZW5kX25hbWV9LyV7Tk9UU1BBQ0U6c2VydmVyX25hbWV9OiBTU0wgaGFuZHNoYWtlIGZhaWx1cmUnCiAgICBhcHBseV9vbjogbWVzc2FnZQogIHN0YXRpY3M6CiAgICAtIG1ldGE6IGxvZ190eXBlCiAgICAgIHZhbHVlOiBiYWRfc3NsX2hhbmRzaGFrZQogICAgICAKLSBncm9rOgogICAgcGF0dGVybjogJyV7SVA6Y2xpZW50X2lwfTole0lOVDpjbGllbnRfcG9ydH0gXFsle0hBUFJPWFlEQVRFOmFjY2VwdF9kYXRlfVxdICV7Tk9UU1BBQ0U6ZnJvbnRlbmRfbmFtZX0vJXtOT1RTUEFDRTpzZXJ2ZXJfbmFtZX06IENvbm5lY3Rpb24gY2xvc2VkIGR1cmluZyBTU0wgaGFuZHNoYWtlJwogICAgYXBwbHlfb246IG1lc3NhZ2UKICBzdGF0aWNzOgogICAgLSBtZXRhOiBsb2dfdHlwZQogICAgICB2YWx1ZTogbm9fc3NsX2hhbmRzaGFrZQoKc3RhdGljczoKICAgICNIQVBST1hZREFURSBmb3JtYXQgaXMgdW5rbm93biB0byBkYXRlcGFyc2UsIGxldCBjb252ZXJ0IGl0IHRvIGEgZm9ybWF0IHdlIGtub3cgdG8gcGFyc2UKICAtIHRhcmdldDogZXZ0LlN0clRpbWUKICAgIGV4cHJlc3Npb246IGV2dC5QYXJzZWQuaGFwcm94eV9tb250aGRheSArICcvJyArIGV2dC5QYXJzZWQuaGFwcm94eV9tb250aCAgICsgJy8nICsgZXZ0LlBhcnNlZC5oYXByb3h5X3llYXIgICsgJzonICsgICBldnQuUGFyc2VkLmhhcHJveHlfaG91ciArICc6JyArIGV2dC5QYXJzZWQuaGFwcm94eV9taW51dGUgKyAnOicgKyAgZXZ0LlBhcnNlZC5oYXByb3h5X3NlY29uZFswOjJdICsgJyAtMDAwMCcKICAtIG1ldGE6IHNlcnZpY2UKICAgIHZhbHVlOiBodHRwCiAgLSBtZXRhOiBzb3VyY2VfaXAKICAgIGV4cHJlc3Npb246IGV2dC5QYXJzZWQuY2xpZW50X2lwCiAgLSBtZXRhOiBodHRwX3BhdGgKICAgIGV4cHJlc3Npb246IGV2dC5QYXJzZWQuaHR0cF9yZXF1ZXN0CiAgLSBtZXRhOiBodHRwX3N0YXR1cwogICAgZXhwcmVzc2lvbjogZXZ0LlBhcnNlZC5odHRwX3N0YXR1c19jb2RlCiAgLSBtZXRhOiBodHRwX3ZlcmIKICAgIGV4cHJlc3Npb246IGV2dC5QYXJzZWQuaHR0cF92ZXJiCiAgLSBwYXJzZWQ6IHJlcXVlc3QKICAgIGV4cHJlc3Npb246IGV2dC5QYXJzZWQuaHR0cF9yZXF1ZXN0CiAgLSBwYXJzZWQ6IHZlcmIKICAgIGV4cHJlc3Npb246IGV2dC5QYXJzZWQuaHR0cF92ZXJiCg==",
       "description": "Parse haproxy http logs",
       "labels": null,
       "path": "parsers/s01-parse/crowdsecurity/haproxy-logs.yaml",
       "stage": "s01-parse",
-      "version": "0.8",
+      "version": "0.9",
       "versions": {
         "0.1": {
           "deprecated": false,
@@ -15536,6 +15536,10 @@
         "0.8": {
           "deprecated": false,
           "digest": "6b10b448b77e20db219c8b661e8482dbfcd4a9fa5dd73462be2f234e59f64f3d"
+        },
+        "0.9": {
+          "deprecated": false,
+          "digest": "c5d9cb896565aef4a321fd25c7f885dee712deda537fed2428d7f31cf19189a8"
         }
       }
     },
@@ -16281,6 +16285,20 @@
         "0.1": {
           "deprecated": false,
           "digest": "a41a81ec54fd61070c0d15f954a4a6f00c63e33546f12d79c6abaf745c36fb4e"
+        }
+      }
+    },
+    "crowdsecurity/openwrt-syslog-ng-logs": {
+      "author": "crowdsecurity",
+      "content": "I0lmIGl0J3Mgc3lzbG9nLCB3ZSBhcmUgZ29pbmcgdG8gZXh0cmFjdCBwcm9nbmFtZSBmcm9tIGl0CmZpbHRlcjogImV2dC5MaW5lLkxhYmVscy50eXBlID09ICdzeXNsb2ctbmcnIgpvbnN1Y2Nlc3M6IG5leHRfc3RhZ2UKZGVidWc6IHRydWUKbmFtZTogY3Jvd2RzZWN1cml0eS9vcGVud3J0LXN5c2xvZy1uZy1sb2dzCm5vZGVzOgogIC0gZ3JvazoKICAgICAgI3RoaXMgaXMgYSBuYW1lZCByZWd1bGFyIGV4cHJlc3Npb24uIGdyb2sgcGF0dGVybnMgY2FuIGJlIGtlcHQgaW50byBzZXBhcmF0ZSBmaWxlcyBmb3IgcmVhZGFiaWxpdHkKICAgICAgI3BhdHRlcm46ICcle0NJU0NPVElNRVNUQU1QOnRpbWVzdGFtcH0nCiAgICAgIHBhdHRlcm46ICcle01PTlRIOmxvZ19tb250aH0gJXtNT05USERBWTpsb2dfZGF5c30gJXtUSU1FOmxvZ190aW1lfSAle0hPU1ROQU1FOmhvc3R9ICV7REFUQTpwcm9ncmFtfVxbJXtOVU1CRVI6cGlkfVxdOicKICAgICAgI1RoaXMgaXMgdGhlIGZpZWxkIG9mIHRoZSBgRXZlbnRgIHRvIHdoaWNoIHRoZSByZWdleHAgc2hvdWxkIGJlIGFwcGxpZWQKICAgICAgYXBwbHlfb246IExpbmUuUmF3CiNpZiB0aGUgbm9kZSB3YXMgc3VjY2Vzc2Z1bGwsIHN0YXRpY3Mgd2lsbCBiZSBhcHBsaWVkLgpzdGF0aWNzOgogIC0gcGFyc2VkOiBtZXNzYWdlCiAgICBleHByZXNzaW9uOiBldnQuTGluZS5SYXcKICAtIHRhcmdldDogZXZ0LlN0clRpbWUKICAgICNleHByZXNzaW9uOiB0aW1lc3RhbXAKICAgIGV4cHJlc3Npb246IGV2dC5QYXJzZWQubG9nX21vbnRoICsgJyAnICsgZXZ0LlBhcnNlZC5sb2dfZGF5cyArICcgJyArIGV2dC5QYXJzZWQubG9nX3RpbWUKICAtIG1ldGE6IGRhdGFzb3VyY2VfcGF0aAogICAgZXhwcmVzc2lvbjogZXZ0LkxpbmUuU3JjCiAgLSBtZXRhOiBkYXRhc291cmNlX3R5cGUKICAgIGV4cHJlc3Npb246IGV2dC5MaW5lLk1vZHVsZQo=",
+      "labels": null,
+      "path": "parsers/s00-raw/crowdsecurity/openwrt-syslog-ng-logs.yaml",
+      "stage": "s00-raw",
+      "version": "0.1",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "2d46dea1f0330be51aaf91c9259c244ab63402fa0be61e6f4fa0c504ee829c1a"
         }
       }
     },
@@ -23847,6 +23865,111 @@
         "0.2": {
           "deprecated": false,
           "digest": "ac0fc68fb2064422e0743f1e9a0f10c13d8881a2298b6152899f2b84d293b148"
+        }
+      }
+    },
+    "crowdsecurity/my-haproxy-ban-droped-ip": {
+      "author": "crowdsecurity",
+      "content": "IyBteXNlcnZpY2UgYnJ1dGVmb3JjZQp0eXBlOiBsZWFreQpuYW1lOiBjcm93ZHNlY3VyaXR5L215LWhhcHJveHktYmFuLWRyb3BlZC1pcApkZXNjcmlwdGlvbjogIkRldGVjdCBteXNlcnZpY2UgYnJ1dGVmb3JjZSIKZmlsdGVyOiAiZXZ0Lk1ldGEuaHR0cF9zdGF0dXMgPT0gJy0xJyIKbGVha3NwZWVkOiAiMTBzIgpjYXBhY2l0eTogMTAKZ3JvdXBieTogZXZ0Lk1ldGEuc291cmNlX2lwCmJsYWNraG9sZTogMW0KcmVwcm9jZXNzOiB0cnVlCmxhYmVsczoKICBzZXJ2aWNlOiBteXNlcnZpY2UKICBjb25maWRlbmNlOiAzCiAgc3Bvb2ZhYmxlOiAwCiAgYmVoYXZpb3I6ICJoYXByb3h5OmJydXRlZm9yY2UiCiAgbGFiZWw6ICJoYXByb3h5IGh0dHAgYnJ1dGVmb3JjZSIKICByZW1lZGlhdGlvbjogdHJ1ZQo=",
+      "description": "Detect myservice bruteforce",
+      "labels": {
+        "behavior": "haproxy:bruteforce",
+        "confidence": 3,
+        "label": "haproxy http bruteforce",
+        "remediation": true,
+        "service": "myservice",
+        "spoofable": 0
+      },
+      "path": "scenarios/crowdsecurity/my-haproxy-ban-droped-ip.yaml",
+      "version": "0.1",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "c606ce7a7f1807dcd113d2b22579ff242f6756692b373fecf20f9cb0944836a9"
+        }
+      }
+    },
+    "crowdsecurity/my-haproxy-http-bf": {
+      "author": "crowdsecurity",
+      "content": "IyBteXNlcnZpY2UgYnJ1dGVmb3JjZQp0eXBlOiBsZWFreQpuYW1lOiBjcm93ZHNlY3VyaXR5L215LWhhcHJveHktaHR0cC1iZgpkZXNjcmlwdGlvbjogIkRldGVjdCBteXNlcnZpY2UgYnJ1dGVmb3JjZSIKZmlsdGVyOiAiZXZ0Lk1ldGEuaHR0cF9zdGF0dXMgaW4gWyczMDInLCAnNDA0JywgJzQwMycsICc0MDAnLCAnNTAzJ10iCmxlYWtzcGVlZDogIjEwcyIKY2FwYWNpdHk6IDEwCmdyb3VwYnk6IGV2dC5NZXRhLnNvdXJjZV9pcApibGFja2hvbGU6IDFtCnJlcHJvY2VzczogdHJ1ZQpsYWJlbHM6CiAgc2VydmljZTogbXlzZXJ2aWNlCiAgY29uZmlkZW5jZTogMwogIHNwb29mYWJsZTogMAogIGJlaGF2aW9yOiAiaGFwcm94eTpicnV0ZWZvcmNlIgogIGxhYmVsOiAiaGFwcm94eSBodHRwIGJydXRlZm9yY2UiCiAgcmVtZWRpYXRpb246IHRydWUK",
+      "description": "Detect myservice bruteforce",
+      "labels": {
+        "behavior": "haproxy:bruteforce",
+        "confidence": 3,
+        "label": "haproxy http bruteforce",
+        "remediation": true,
+        "service": "myservice",
+        "spoofable": 0
+      },
+      "path": "scenarios/crowdsecurity/my-haproxy-http-bf.yaml",
+      "version": "0.1",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "2313f7fc036ce68ed4b61096705a5f6e188f8ca71f969ef8433185ea46abb1b2"
+        }
+      }
+    },
+    "crowdsecurity/my-haproxy-ssl-bf": {
+      "author": "crowdsecurity",
+      "content": "IyBteXNlcnZpY2UgYnJ1dGVmb3JjZQp0eXBlOiBsZWFreQpuYW1lOiBjcm93ZHNlY3VyaXR5L215LWhhcHJveHktc3NsLWJmCmRlc2NyaXB0aW9uOiAiRGV0ZWN0IGhhcHJveHkgc3NsIGJydXRlZm9yY2UiCmZpbHRlcjogImV2dC5NZXRhLmxvZ190eXBlID09ICdiYWRfc3NsX2hhbmRzaGFrZScgfHwgZXZ0Lk1ldGEubG9nX3R5cGUgPT0gJ25vX3NzbF9oYW5kc2hha2UnIgpsZWFrc3BlZWQ6ICIxMHMiCmNhcGFjaXR5OiA1Cmdyb3VwYnk6IGV2dC5NZXRhLnNvdXJjZV9pcApibGFja2hvbGU6IDFtCnJlcHJvY2VzczogdHJ1ZQpsYWJlbHM6CiAgc2VydmljZTogaGFwcm94eQogIGNvbmZpZGVuY2U6IDMKICBzcG9vZmFibGU6IDAKICBiZWhhdmlvcjogIm15c2VydmljZTpicnV0ZWZvcmNlIgogIGxhYmVsOiAibXlzZXJ2aWNlIGJydXRlZm9yY2UiCiAgcmVtZWRpYXRpb246IHRydWUK",
+      "description": "Detect haproxy ssl bruteforce",
+      "labels": {
+        "behavior": "myservice:bruteforce",
+        "confidence": 3,
+        "label": "myservice bruteforce",
+        "remediation": true,
+        "service": "haproxy",
+        "spoofable": 0
+      },
+      "path": "scenarios/crowdsecurity/my-haproxy-ssl-bf.yaml",
+      "version": "0.1",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "e883be90cf4f419f4b83e50bbcf556aea5158453b5d207f9df93424b809e1183"
+        }
+      }
+    },
+    "crowdsecurity/my-haproxy-ssl-ddos": {
+      "author": "crowdsecurity",
+      "content": "IyBteXNlcnZpY2UgYnJ1dGVmb3JjZQp0eXBlOiBsZWFreQpuYW1lOiBjcm93ZHNlY3VyaXR5L215LWhhcHJveHktc3NsLWRkb3MKZGVidWc6IHRydWUKZGVzY3JpcHRpb246ICJEZXRlY3QgaGFwcm94eSBzc2wgZGRvcyBhdHRhY2siCmZpbHRlcjogImV2dC5NZXRhLkFTTk51bWJlciAhPSAnMCcgJiYgZXZ0Lk1ldGEubG9nX3R5cGUgPT0gJ25vX3NzbF9oYW5kc2hha2UnIgpsZWFrc3BlZWQ6ICIycyIKY2FwYWNpdHk6IDEwCmdyb3VwYnk6ICJldnQuTWV0YS5BU05OdW1iZXIiCmRpc3RpbmN0OiAiZXZ0Lk1ldGEuc291cmNlX2lwIgpibGFja2hvbGU6IDFtCnJlcHJvY2VzczogdHJ1ZQpsYWJlbHM6CiAgc2VydmljZTogaGFwcm94eQogIGNvbmZpZGVuY2U6IDMKICBzcG9vZmFibGU6IDAKICBiZWhhdmlvcjogIm15c2VydmljZTpicnV0ZWZvcmNlIgogIGxhYmVsOiAibXlzZXJ2aWNlIGJydXRlZm9yY2UiCiAgcmVtZWRpYXRpb246IHRydWUK",
+      "description": "Detect haproxy ssl ddos attack",
+      "labels": {
+        "behavior": "myservice:bruteforce",
+        "confidence": 3,
+        "label": "myservice bruteforce",
+        "remediation": true,
+        "service": "haproxy",
+        "spoofable": 0
+      },
+      "path": "scenarios/crowdsecurity/my-haproxy-ssl-ddos.yaml",
+      "version": "0.1",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "fbc04c8f7d6478a181aa73c4103c0724b96d68ae0949b45dae6aaec9f4a3e39d"
+        }
+      }
+    },
+    "crowdsecurity/my-random-captcha": {
+      "author": "crowdsecurity",
+      "content": "IyBteXNlcnZpY2UgYnJ1dGVmb3JjZQp0eXBlOiBsZWFreQpuYW1lOiBjcm93ZHNlY3VyaXR5L215LXJhbmRvbS1jYXB0Y2hhCmRlc2NyaXB0aW9uOiAiQWZ0ZXIgMyB2aXNpdHMgZm9yY2VzIGEgY2FwdGNoYSBvbiB0aGUgaXAiCmZpbHRlcjogMSA9PSAxCmxlYWtzcGVlZDogIjhoIgpjYXBhY2l0eTogNQpncm91cGJ5OiBldnQuTWV0YS5zb3VyY2VfaXAKYmxhY2tob2xlOiAyNGgKcmVwcm9jZXNzOiB0cnVlCmxhYmVsczoKICBzZXJ2aWNlOiBteXNlcnZpY2UKICBjb25maWRlbmNlOiAzCiAgc3Bvb2ZhYmxlOiAwCiAgYmVoYXZpb3I6ICJoYXByb3h5OmJydXRlZm9yY2UiCiAgbGFiZWw6ICJyYW5kb20gY2FwdGNoYSIKICByZW1lZGlhdGlvbjogdHJ1ZQo=",
+      "description": "After 3 visits forces a captcha on the ip",
+      "labels": {
+        "behavior": "haproxy:bruteforce",
+        "confidence": 3,
+        "label": "random captcha",
+        "remediation": true,
+        "service": "myservice",
+        "spoofable": 0
+      },
+      "path": "scenarios/crowdsecurity/my-random-captcha.yaml",
+      "version": "0.1",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "4b16dd10d01e63981ac54c9eb5ff9436422fe6f05f28916acbbc18d4bf6df780"
         }
       }
     },
