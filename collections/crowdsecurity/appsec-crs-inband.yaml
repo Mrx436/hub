@@ -1,3 +1,4 @@
+name: crowdsecurity/appsec-crs-inband
 parsers:
   - crowdsecurity/appsec-logs
 appsec-configs:
@@ -6,11 +7,14 @@ appsec-rules:
   - crowdsecurity/crs
 scenarios:
   - crowdsecurity/appsec-native
-description: "Appsec: Modsecurity core rule set rules"
+description: "WAF: Blocking OWASP Core Rule Set"
+labels:
+  label: "WAF - OWASP Core Rule Set (Blocking)"
 contexts:
   - crowdsecurity/appsec_base
 author: crowdsecurity
 tags:
+  - waf
   - linux
   - http
   - appsec

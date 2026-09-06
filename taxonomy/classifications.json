@@ -45,14 +45,34 @@
         "name": "range:data_center"
     },
     "scanner:alphastrike": {
-        "description": "IP belongs to a company that scans the internet: AlphaSrike.",
-        "label": "Known Security Company: AlphaSrike",
+        "description": "IP belongs to a company that scans the internet: Alpha Strike.",
+        "label": "Known Security Company: Alpha Strike",
         "name": "scanner:alphastrike"
+    },
+    "scanner:criminalip": {
+        "description": "IP belongs to a company that scans the internet: CriminalIP.",
+        "label": "Known Security Company: CriminalIP",
+        "name": "scanner:criminalip"
+    },
+    "scanner:cypex": {
+        "description": "IP belongs to a company that scans the internet: Cypex.",
+        "label": "Known Security Company: Cypex",
+        "name": "scanner:cypex"
     },
     "scanner:onyphe": {
         "description": "IP belongs to a company that scans the internet: Onyphe.",
         "label": "Known Security Company: Onyphe",
         "name": "scanner:onyphe"
+    },
+    "scanner:deepfield": {
+        "description": "IP belongs to a company that scans the internet: Deepfield.",
+        "label": "Known Security Company: Deepfield",
+        "name": "scanner:deepfield"
+    },
+    "scanner:patrowl": {
+        "description": "IP belongs to a company that scans the internet: Patrowl.",
+        "label": "Known Security Company: Patrowl",
+        "name": "scanner:patrowl"
     },
     "scanner:arcticwolf": {
         "description": "IP belongs to an entity that scans the internet: Arctic Wolf",
@@ -63,6 +83,11 @@
         "description": "IP belongs to a company that scans the internet: Qualys.",
         "label": "Known Security Company: Qualys",
         "name": "scanner:qualys"
+    },
+    "scanner:xmco": {
+        "description": "IP belongs to a company that scans the internet: XMCO.",
+        "label": "Known Security Company: XMCO",
+        "name": "scanner:xmco"
     },
     "scanner:binaryedge": {
         "description": "IP belongs to a company that scans the internet: binaryedge.",
@@ -84,20 +109,10 @@
         "label": "Known Security Company: Hadrian.io",
         "name": "scanner:hadrian"
     },
-    "scanner:cert.ssi.gouv.fr": {
-        "description": "IP belongs to an entity that scans the internet: cert.ssi.gouv.fr.",
-        "label": "Known CERT: CERT-FR",
-        "name": "scanner:cert.ssi.gouv.fr"
-    },
     "scanner:watchtowr": {
         "description": "IP belongs to a company that scans the internet: watchTowr.",
         "label": "Known Security Company: watchTowr",
         "name": "scanner:watchtowr"
-    },
-    "scanner:cisa.dhs.gov": {
-        "description": "IP belongs to an entity that scans the internet: cisa.dhs.gov.",
-        "label": "Known CERT: CISA",
-        "name": "scanner:cisa.dhs.gov"
     },
     "scanner:internet-census": {
         "description": "IP belongs to a company that scans the internet: internet-census.",
@@ -105,9 +120,14 @@
         "name": "scanner:internet-census"
     },
     "scanner:leakix": {
-        "description": "IP belongs to a company that scans the internet: leakix.",
+        "description": "IP belongs to a company that scans the internet: Leakix.",
         "label": "Known Security Company: Leakix",
         "name": "scanner:leakix"
+    },
+    "scanner:modat": {
+        "description": "IP belongs to a company that scans the internet: Modat.",
+        "label": "Known Security Company: Modat",
+        "name": "scanner:modat"
     },
     "scanner:project-sonar": {
         "description": "IP belongs to Rapid7 for their Project Sonar.",
@@ -128,6 +148,16 @@
         "description": "IP belongs to a company that scans the internet: Shodan.",
         "label": "Known Security Company: Shodan",
         "name": "scanner:shodan"
+    },
+    "scanner:driftnet": {
+        "description": "IP belongs to a company that scans the internet: Driftnet.",
+        "label": "Known Security Company: Driftnet",
+        "name": "scanner:driftnet"
+    },
+    "scanner:cybcube": {
+        "description": "IP belongs to a company that scans the internet: Cybcube.",
+        "label": "Known Security Company: Cybcube",
+        "name": "scanner:cybcube"
     },
     "scanner:cookiebot": {
         "description": "IP belongs to a company that scans its clients: Cookiebot",
@@ -205,7 +235,7 @@
         "name": "profile:proxy"
     },
     "profile:corporate-proxy": {
-        "description": "IP exposes services that are commonly used by proxies.",
+        "description": "IP is flagged as a corporate proxy exit point.",
         "label": "Corporate Proxy",
         "name": "profile:corporate-proxy"
     },
@@ -499,6 +529,16 @@
         "label": "Huawei AI crawler",
         "name": "ai-crawler:huawei"
     },
+    "ai-crawler:mistral": {
+        "description": "This IP is used to scrape websites for LLM training by Mistral AI.",
+        "label": "Mistral AI crawler",
+        "name": "ai-crawler:mistral"
+    },
+    "ai-search:mistral": {
+        "description": "This IP is used to enrich search results using an LLM by Mistral AI.",
+        "label": "Mistral AI search agent",
+        "name": "ai-search:mistral"
+    },
     "ai-crawler:perplexity": {
         "description": "This IP is used to scrape websites for LLM training by Perplexity.",
         "label": "Perplexity AI crawler",
@@ -524,9 +564,39 @@
         "label": "Data Center IP",
         "name": "connection-type:data-center"
     },
-    "connection-type:data-center": {
+    "connection-type:residential": {
         "description": "This IP belongs to a residential user.",
         "label": "Residential IP",
         "name": "connection-type:residential"
+    },
+    "scanner:cert.ssi.gouv.fr": {
+        "description": "IP belongs to an entity that scans the internet: cert.ssi.gouv.fr.",
+        "label": "CERT-FR Scanner",
+        "name": "scanner:cert.ssi.gouv.fr"
+    },
+    "scanner:cisa.dhs.gov": {
+        "description": "IP belongs to an entity that scans the internet: cisa.dhs.gov.",
+        "label": "CISA Scanner",
+        "name": "scanner:cisa.dhs.gov"
+    },
+    "scanner:cert.pl": {
+        "description": "IP belongs to an entity that scans the internet: cert.pl",
+        "label": "CERT Polska Scanner",
+        "name": "scanner:cert.pl"
+    },
+    "corporate-proxy:zscaler": {
+        "description": "IP is flagged as a Zscaler proxy exit point.",
+        "label": "Zscaler",
+        "name": "corporate-proxy:zscaler"
+    },
+    "corporate-proxy:netskope": {
+        "description": "IP is flagged as a Netskope proxy exit point.",
+        "label": "Netskope",
+        "name": "corporate-proxy:netskope"
+    },
+    "corporate-proxy:forcepoint": {
+        "description": "IP is flagged as a Forcepoint proxy exit point.",
+        "label": "Forcepoint",
+        "name": "corporate-proxy:forcepoint"
     }
 }
